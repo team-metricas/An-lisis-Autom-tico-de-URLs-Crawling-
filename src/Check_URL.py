@@ -12,7 +12,11 @@ import sys
 import pandas as pd
 import time
 import re
-import matplotlib.pyplot as plt
+import requests
+
+# Arranco la hora de inicio
+inicio = time.time()
+
 
 os.chdir("../data/")
 
@@ -41,18 +45,13 @@ df_tsv_limpio['Bot_Says2'] = df_tsv_limpio['Bot Says']
 df_tsv_limpio['Bot_Says2'] = df_tsv_limpio['Bot_Says2'].str.replace(r'\${.*?}', '', regex=True)
 
 
-# # Defino un diccionario de reemplazos
-# reemplazos = {'\\t': ' ','¿': ' ','?': ' ', '!': ' ', '¡': ' ','¡': ' ',',': ' ','.': ' ','null': ' ','*': ' ','\\r\\n': ' '}
-
 reemplazos = {'\\t': ' ','\\r\\n': ' '}
 # Realizo los reemplazos en una sola línea
 for buscar, reemplazar in reemplazos.items():
     df_tsv_limpio['Bot_Says2'] = df_tsv_limpio['Bot_Says2'].str.replace(buscar, reemplazar)
 
-
 # Defino una expresión regular para encontrar URLs
 patron_url = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
-
 
 # Función para encontrar URLs y devolverlas en una lista
 def encontrar_urls(texto):
@@ -61,29 +60,48 @@ def encontrar_urls(texto):
 # Aplico la función a la columna Bot_Says2 y creo una nueva columna con las listas de URLs
 df_tsv_limpio['URLs_encontradas'] = df_tsv_limpio['Bot_Says2'].apply(encontrar_urls)
 
-"""
 
-def verificar_url_activa(url):
+#df_primeras_10_filas = df_tsv_limpio.head(6200)
+
+# Encabezados de solicitud personalizados
+headers = {
+    'User-Agent': 'Usuario Personalizado',
+    'Accept-Language': 'es-ES,es;q=0.9',
+}
+
+# Función para verificar si una URL es válida
+def verificar_url(url):
     try:
-        response = requests.get(url)
-        if response.status_code == 200:  # Código de estado 200 indica una respuesta exitosa
-            return True
-        else:
-            return False
-    except requests.ConnectionError:  # Capturar error de conexión
+        response = requests.get(url, headers=headers)
+        print("\nTesteo ",url)
+        return response.status_code == 20  # Retorna True si el código de estado es 200 (OK)
+    except Exception as e:
+        print(f"Error al verificar URL {url}: {e}")
         return False
 
-# Ejemplo de uso
-url = "https://www.infobae55.com"
-if verificar_url_activa(url):
-    print("La URL está activa.")
-else:
-    print("La URL no está activa.")
+# Función para verificar URLs y devolver una lista de resultados
+def verificar_urls(urls):
+    resultados = []
+    for url in urls:
+        resultados.append(verificar_url(url))
+    return resultados
+
+# Aplico la función a la columna 'URLs_encontradas' y crea una nueva columna 'URL_valida'
+df_tsv_limpio['URL_valida'] = df_tsv_limpio['URLs_encontradas'].apply(verificar_urls)
+
+filas_con_false = df_tsv_limpio[df_tsv_limpio['URL_valida'].astype(str).str.contains('False')]
+
+# Exporto a formato CSV separado con punto y coma asi lo levanta directo un excell
+filas_con_false[['Name', 'URLs_encontradas', 'URL_valida']].to_csv('RuleName_con_urls_malas.csv',sep=';', index=False)
+filas_con_false[['Name', 'URLs_encontradas', 'URL_valida']].to_csv('../RuleName_con_urls_malas.csv',sep=';', index=False)
+
+# Calculo final de elapsed time del programa
+fin = time.time()
+tiempo_transcurrido = fin - inicio
+tiempo_transcurrido_formato = time.strftime("%H:%M:%S", time.gmtime(tiempo_transcurrido))
 
 
-"""
-
-
-
-sys.exit()
+print("\n\nHora de inicio:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(inicio)))
+print("Hora de finalización:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(fin)))
+print("Tiempo transcurrido:", tiempo_transcurrido_formato)
 
