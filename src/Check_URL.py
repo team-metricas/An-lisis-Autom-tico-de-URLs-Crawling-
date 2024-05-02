@@ -61,7 +61,7 @@ def encontrar_urls(texto):
 df_tsv_limpio['URLs_encontradas'] = df_tsv_limpio['Bot_Says2'].apply(encontrar_urls)
 
 
-df_primeras_10_filas = df_tsv_limpio.head(50)
+df_primeras_10_filas = df_tsv_limpio.head(50000)
 
 # Encabezados de solicitud personalizados
 headers = {
@@ -87,18 +87,29 @@ headers = {
 #         resultados.append(verificar_url(url))
 #     return resultados
 
+
+# df_primeras_10_filas_copy = df_primeras_10_filas.copy()
+# df_primeras_10_filas_copy['URL_Invalida'] = None
+
+
 df_primeras_10_filas['URL_Invalida'] = None
 
 
-#print("sigoo")
+numero_filas = df_primeras_10_filas.shape[0]
+contador = 1
+print("\n\n\nCantidad de filas:", str(numero_filas))
 
 for index, row in df_primeras_10_filas.iterrows():
-    
+
+    procesado = str(round((contador / numero_filas)* 100,1))+"%"
+    contador = contador +1
+
+    print("\t\t\t\tProcesado ",procesado)
     dato1 = row['URLs_encontradas']
     
     #dato2 = row['Columna2']
     #print(dato1)
-    print("\n\n\nTesteo ",dato1)
+    #print("\n\n\nTesteo ",dato1)
     resultados = []
     if len(dato1) > 0:
         for url in dato1:
@@ -108,10 +119,10 @@ for index, row in df_primeras_10_filas.iterrows():
             try:
                 response = requests.get(url, headers=headers)
                 valor =  response.status_code == 200  # Retorna True si el código de estado es 200 (OK)
-                if valor:
-                    print("SI pudo entrar a ",url)
+                # if valor:
+                #     print("SI pudo entrar a ",url)
             except Exception as e:
-                print("\n\n\nNO pudo entrar a ",url)
+                print("\n\nInvalida",url)
                 resultados.append(url)
             
             #print(resultados)
