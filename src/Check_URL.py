@@ -12,7 +12,10 @@ import sys
 import pandas as pd
 import time
 import re
+import warnings
 import requests
+
+pd.options.mode.chained_assignment = None  # default='warn'
 
 # Arranco la hora de inicio
 inicio = time.time()
@@ -61,7 +64,10 @@ def encontrar_urls(texto):
 df_tsv_limpio['URLs_encontradas'] = df_tsv_limpio['Bot_Says2'].apply(encontrar_urls)
 
 
-df_primeras_10_filas = df_tsv_limpio.head(50000)
+#df_procesar = df_tsv_limpio.head(50)  ## Esto es para debug de un set reducido de filas
+
+df_procesar = df_tsv_limpio.copy()
+
 
 # Encabezados de solicitud personalizados
 headers = {
@@ -69,37 +75,14 @@ headers = {
     'Accept-Language': 'es-ES,es;q=0.9',
 }
 
-# # Función para verificar si una URL es válida
-# def verificar_url(url):
-#     try:
-#         response = requests.get(url, headers=headers)
-#         print("\n\n\nTesteo ",url)
-#         return response.status_code == 20  # Retorna True si el código de estado es 200 (OK)
-#     except Exception as e:
-#         print(f"\n\n\nError al verificar URL {url}: {e}")
-#         #sys.exit()
-#         return False
-
-# # Función para verificar URLs y devolver una lista de resultados
-# def verificar_urls(urls):
-#     resultados = []
-#     for url in urls:
-#         resultados.append(verificar_url(url))
-#     return resultados
+df_procesar['URL_Invalida'] = None
 
 
-# df_primeras_10_filas_copy = df_primeras_10_filas.copy()
-# df_primeras_10_filas_copy['URL_Invalida'] = None
-
-
-df_primeras_10_filas['URL_Invalida'] = None
-
-
-numero_filas = df_primeras_10_filas.shape[0]
+numero_filas = df_procesar.shape[0]
 contador = 1
 print("\n\n\nCantidad de filas:", str(numero_filas))
 
-for index, row in df_primeras_10_filas.iterrows():
+for index, row in df_procesar.iterrows():
 
     procesado = str(round((contador / numero_filas)* 100,1))+"%"
     contador = contador +1
@@ -107,48 +90,51 @@ for index, row in df_primeras_10_filas.iterrows():
     print("\t\t\t\tProcesado ",procesado)
     dato1 = row['URLs_encontradas']
     
-    #dato2 = row['Columna2']
-    #print(dato1)
-    #print("\n\n\nTesteo ",dato1)
+
     resultados = []
     if len(dato1) > 0:
         for url in dato1:
-            #resultados.append(verificar_url(url))
-            #resultados.append(dato1)
-            #print("Fila completa ",dato1)
-            try:
-                response = requests.get(url, headers=headers)
-                valor =  response.status_code == 200  # Retorna True si el código de estado es 200 (OK)
-                # if valor:
-                #     print("SI pudo entrar a ",url)
-            except Exception as e:
-                print("\n\nInvalida",url)
+
+
+            max_intentos = 5  # Número máximo de intentos
+            intento_actual = 0
+            esValida = False
+            
+            while intento_actual < max_intentos:
+                try:
+                    # Desactivo la verificación del certificado SSL
+                    with warnings.catch_warnings():
+                        warnings.simplefilter("ignore")
+                        response = requests.get(url, headers=headers, verify=False)
+            
+                    
+                    if response.status_code == 200:
+                        esValida = True
+                        #print("Sí pudo entrar a", url)
+                        break  # Si la respuesta es 200, devuelvo True
+                except requests.exceptions.ConnectionError as e:
+                    print("\tError de conexión:", e)
+                    print("\tURL inválida:", url)
+                    break
+                
+                intento_actual += 1
+                time.sleep(1)  
+                     
+
+            if not esValida:
+                print("\nNO pudo entrar a ",url)
                 resultados.append(url)
             
             #print(resultados)
-    df_primeras_10_filas.at[index, 'URL_Invalida'] = resultados
-    #sys.exit()
-
-
-    # Realiza el cálculo utilizando los datos de las columnas
-    # Ejemplo de cálculo: suma de los datos de las columnas
-    
-    #resultado_fila = dato1 + dato2sultado_fila = calcular_resultado(row)
-    
-    # Actualiza la columna 'URLs_encontradas' con el resultado
-    #df_primeras_10_filas.at[index, 'URLs_encontradas'] = resultado_fila
+    df_procesar.at[index, 'URL_Invalida'] = resultados
 
 
 
-# # Aplico la función a la columna 'URLs_encontradas' y crea una nueva columna 'URL_valida'
-# df_primeras_10_filas['URL_valida'] = df_primeras_10_filas['URLs_encontradas'].apply(verificar_urls)
+df_filtrado = df_procesar[df_procesar['URL_Invalida'].apply(lambda x: isinstance(x, list) and len(x) > 0)]
 
-#filas_con_false = df_primeras_10_filas[df_primeras_10_filas['URL_Invalida'].astype(str).str.contains('False')]
-df_filtrado = df_primeras_10_filas[df_primeras_10_filas['URL_Invalida'].apply(lambda x: isinstance(x, list) and len(x) > 0)]
-
-#Exporto a formato CSV separado con punto y coma asi lo levanta directo un excell
-df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('RuleName_con_urls_malas.csv',sep=';', index=False)
-df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('../RuleName_con_urls_malas.csv',sep=';', index=False)
+#Exporto a formato CSV separado con punto y coma asi lo levanta directo un excel
+df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('RuleName_con_urls_malas.csv',sep=';', encoding='iso-8859-1', index=False)
+df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('../RuleName_con_urls_malas.csv',sep=';', encoding='iso-8859-1', index=False)
 
 # Calculo final de elapsed time del programa
 fin = time.time()
