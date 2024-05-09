@@ -63,11 +63,9 @@ def encontrar_urls(texto):
 # Aplico la función a la columna Bot_Says2 y creo una nueva columna con las listas de URLs
 df_tsv_limpio['URLs_encontradas'] = df_tsv_limpio['Bot_Says2'].apply(encontrar_urls)
 
-
-#df_procesar = df_tsv_limpio.head(50)  ## Esto es para debug de un set reducido de filas
+#df_procesar = df_tsv_limpio.head(1000)  ## Esto es para debug de un set reducido de filas
 
 df_procesar = df_tsv_limpio.copy()
-
 
 # Encabezados de solicitud personalizados
 headers = {
@@ -76,6 +74,8 @@ headers = {
 }
 
 df_procesar['URL_Invalida'] = None
+url_total = []
+url_malas = []
 
 
 numero_filas = df_procesar.shape[0]
@@ -94,8 +94,9 @@ for index, row in df_procesar.iterrows():
     resultados = []
     if len(dato1) > 0:
         for url in dato1:
+            
 
-
+            url_total.append(url)
             max_intentos = 5  # Número máximo de intentos
             intento_actual = 0
             esValida = False
@@ -123,7 +124,9 @@ for index, row in df_procesar.iterrows():
 
             if not esValida:
                 print("\nNO pudo entrar a ",url)
+                url_malas.append(url)
                 resultados.append(url)
+                
             
             #print(resultados)
     df_procesar.at[index, 'URL_Invalida'] = resultados
