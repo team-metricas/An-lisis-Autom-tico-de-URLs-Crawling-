@@ -24,11 +24,14 @@ Filtro por Filas:	no null, no spaces, active TRUE
     Analiza el TSV eliminando variables de reemplazo e identificando URLs.  
     Crea una lista de dirrecciones halladas y las guarda en la columna `df_tsv_limpio['URLs_encontradas']`
     Para hacer el requests a las url crea un header sencillo a efectos similar lo mas posible el uso humano.  
-    La validez de esas urls se almacena en una lista en `df_tsv_limpio['URL_valida']` indicandola con __True__ o __False__
+    La validez de esas urls se almacena en una lista en `df_tsv_limpio['URL_valida']` indicandola con __True__ o __False__  
+    Las url que terminan con un punto, son procesadas y ese punto es eliminado.  
 	Crea un archivo *RuleName_con_urls_malas.csv* con las filas donde al menos haya una url invalida   
 	
 ## Entregables ##
 Entregable para Mejora continua, un CSV con los datos 'Name', 'URLs_encontradas', 'URL_valida'.  
 El separador del CSV esta definido como Punto y Coma para que sea levantado automaticamente desde __Excel__  
-Archivo `RuleName_con_urls_malas.csv` en la raiz del repositorio y en la carpeta `/data`
+Archivo `RuleName_con_urls_malas.csv` en la raiz del repositorio y en la carpeta `/data`  
+Archivo `Estadisticos_URLS_TSV.csv` en la raiz del repositorio  
+
 

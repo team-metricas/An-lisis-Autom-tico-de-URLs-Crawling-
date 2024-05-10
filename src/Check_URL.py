@@ -64,7 +64,6 @@ def encontrar_urls(texto):
 df_tsv_limpio['URLs_encontradas'] = df_tsv_limpio['Bot_Says2'].apply(encontrar_urls)
 
 #df_procesar = df_tsv_limpio.head(1000)  ## Esto es para debug de un set reducido de filas
-
 df_procesar = df_tsv_limpio.copy()
 
 # Encabezados de solicitud personalizados
@@ -94,8 +93,9 @@ for index, row in df_procesar.iterrows():
     resultados = []
     if len(dato1) > 0:
         for url in dato1:
-            
-
+            if url.endswith('.'):  ## ELimino el Punto al final de la URL
+                url = url[:-1]
+                
             url_total.append(url)
             max_intentos = 5  # Número máximo de intentos
             intento_actual = 0
@@ -138,6 +138,34 @@ df_filtrado = df_procesar[df_procesar['URL_Invalida'].apply(lambda x: isinstance
 #Exporto a formato CSV separado con punto y coma asi lo levanta directo un excel
 df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('RuleName_con_urls_malas.csv',sep=';', encoding='iso-8859-1', index=False)
 df_filtrado[['Name', 'URLs_encontradas', 'URL_Invalida']].to_csv('../RuleName_con_urls_malas.csv',sep=';', encoding='iso-8859-1', index=False)
+
+
+# Defino los nombres y valores de los estadisticos a imprimir
+nombre_variable_1 = "Cantidad Total de Urls"
+valor_variable_1 = len(url_total)
+nombre_variable_2 = "Cantidad de Urls Invalidas"
+valor_variable_2 = len(url_malas)
+nombre_variable_2_1 = "Porcentaje de Urls Invalidas"
+valor_variable_2_1 = str(int((len(url_malas) / len(url_total)) * 100 )) + "%"
+nombre_variable_3 = "Cantidad de Filas TSV File"
+valor_variable_3 = numero_filas
+
+# Creo una lista de tuplas con los nombres y valores de los estadisticos de interes
+data = [
+    (nombre_variable_1, valor_variable_1),
+    (nombre_variable_2, valor_variable_2),
+    (nombre_variable_2_1, valor_variable_2_1),
+    (nombre_variable_3, valor_variable_3)
+]
+
+nombre_archivo = "../Estadisticos_URLS_TSV.csv"
+
+# Escribir los datos en el archivo CSV
+with open(nombre_archivo, mode='w', newline='') as file:
+    writer = csv.writer(file,delimiter=';')
+    writer.writerow(['Variable', 'Valor'])  # Escribir la fila de encabezado
+    writer.writerows(data)  # Escribir los datos de las variables
+
 
 # Calculo final de elapsed time del programa
 fin = time.time()
