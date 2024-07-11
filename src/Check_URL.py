@@ -23,7 +23,7 @@ inicio = time.time()
 
 os.chdir("../data/")
 
-df_tsv = pd.read_csv("rules-2024.04.04-12.19.tsv", sep='\t', on_bad_lines='warn', index_col=False, encoding="latin1")
+df_tsv = pd.read_csv("rules-2024.07.02-14.33.tsv", sep='\t', on_bad_lines='warn', index_col=False, encoding="latin1")
 
 
 # Elimino las filas donde la columna Bot Says contiene valores NULL
