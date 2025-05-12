@@ -20,7 +20,7 @@ Columnas a recuperar:	Id, name, bot says
 
 Filtro por Filas:	no null, no spaces, active TRUE
  
-**Check_URL.py**
+**Check_URL_mejorado.py**
     Analiza el TSV eliminando variables de reemplazo e identificando URLs.  
     Crea una lista de dirrecciones halladas y las guarda en la columna `df_tsv_limpio['URLs_encontradas']`
     Para hacer el requests a las url crea un header sencillo a efectos similar lo mas posible el uso humano.  

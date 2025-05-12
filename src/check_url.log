@@ -1,0 +1,311 @@
+2025-05-12 11:29:30,404 - INFO - Iniciando procesamiento de URLs
+2025-05-12 11:29:30,447 - INFO - Cargando archivo rules-2025.05.06-13.03.tsv
+2025-05-12 11:29:30,532 - INFO - Archivo cargado con 11549 filas
+2025-05-12 11:29:30,568 - INFO - Cantidad de filas a procesar: 7216
+2025-05-12 11:29:45,139 - INFO - Backup guardado en RuleName_con_urls_malas_backup_50.csv - 50 filas procesadas
+2025-05-12 11:29:52,669 - INFO - Backup guardado en RuleName_con_urls_malas_backup_100.csv - 100 filas procesadas
+2025-05-12 11:29:59,153 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/declaracion-jurada-de-administradores-de-consorcio
+2025-05-12 11:29:59,160 - INFO - Backup guardado en RuleName_con_urls_malas_backup_150.csv - 150 filas procesadas
+2025-05-12 11:30:05,025 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/desdoblamiento-de-deuda-por-diferencias-fiscales-de-avaluo
+2025-05-12 11:30:05,095 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/imputacion-de-pago-sellos
+2025-05-12 11:30:11,124 - INFO - Backup guardado en RuleName_con_urls_malas_backup_200.csv - 200 filas procesadas
+2025-05-12 11:30:14,949 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/denuncia-de-venta-de-vehiculos-ante-agip
+2025-05-12 11:30:22,475 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/exencion-patentes-para-viajantes-de-comercio-50-ordenanza
+2025-05-12 11:30:22,745 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/desacuerdos-con-valor-inmobiliario-de-referencia-vir
+2025-05-12 11:30:32,084 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/consulta-de-saldos-e-impresion-de-boletas-para-pago-del-impuesto-inmobiliario-abl
+2025-05-12 11:30:38,892 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/empadronamiento-inmobiliario-valuacion-fiscal-homogenea
+2025-05-12 11:30:39,028 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/solicitud-o-descargo-de-anuncios-publicitarios
+2025-05-12 11:30:42,248 - INFO - Backup guardado en RuleName_con_urls_malas_backup_250.csv - 250 filas procesadas
+2025-05-12 11:30:44,935 - INFO - Backup guardado en RuleName_con_urls_malas_backup_300.csv - 300 filas procesadas
+2025-05-12 11:31:14,527 - INFO - Backup guardado en RuleName_con_urls_malas_backup_350.csv - 350 filas procesadas
+2025-05-12 11:31:31,972 - INFO - Backup guardado en RuleName_con_urls_malas_backup_400.csv - 400 filas procesadas
+2025-05-12 11:31:33,029 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/permiso-de-demolicion
+2025-05-12 11:31:35,841 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/permiso-de-demolicion
+2025-05-12 11:31:36,369 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/permiso-temprano-de-ejecucion-de-obra-civil
+2025-05-12 11:31:36,539 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/permiso-temprano-de-ejecucion-de-obra-civil
+2025-05-12 11:31:47,999 - INFO - Backup guardado en RuleName_con_urls_malas_backup_450.csv - 450 filas procesadas
+2025-05-12 11:31:58,764 - INFO - Backup guardado en RuleName_con_urls_malas_backup_500.csv - 500 filas procesadas
+2025-05-12 11:32:03,681 - INFO - Backup guardado en RuleName_con_urls_malas_backup_550.csv - 550 filas procesadas
+2025-05-12 11:32:05,236 - INFO - Backup guardado en RuleName_con_urls_malas_backup_600.csv - 600 filas procesadas
+2025-05-12 11:32:05,701 - INFO - Backup guardado en RuleName_con_urls_malas_backup_650.csv - 650 filas procesadas
+2025-05-12 11:32:06,897 - INFO - Backup guardado en RuleName_con_urls_malas_backup_700.csv - 700 filas procesadas
+2025-05-12 11:32:09,351 - INFO - Backup guardado en RuleName_con_urls_malas_backup_750.csv - 750 filas procesadas
+2025-05-12 11:32:09,797 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /
+2025-05-12 11:32:24,468 - INFO - Backup guardado en RuleName_con_urls_malas_backup_800.csv - 800 filas procesadas
+2025-05-12 11:32:26,328 - INFO - Backup guardado en RuleName_con_urls_malas_backup_850.csv - 850 filas procesadas
+2025-05-12 11:32:26,668 - INFO - Backup guardado en RuleName_con_urls_malas_backup_900.csv - 900 filas procesadas
+2025-05-12 11:32:30,475 - INFO - Backup guardado en RuleName_con_urls_malas_backup_950.csv - 950 filas procesadas
+2025-05-12 11:32:37,547 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1000.csv - 1000 filas procesadas
+2025-05-12 11:32:56,718 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1050.csv - 1050 filas procesadas
+2025-05-12 11:32:56,769 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1100.csv - 1100 filas procesadas
+2025-05-12 11:33:03,120 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1150.csv - 1150 filas procesadas
+2025-05-12 11:33:12,880 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1200.csv - 1200 filas procesadas
+2025-05-12 11:33:17,344 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1250.csv - 1250 filas procesadas
+2025-05-12 11:33:17,383 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1300.csv - 1300 filas procesadas
+2025-05-12 11:33:17,392 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1350.csv - 1350 filas procesadas
+2025-05-12 11:33:21,848 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /maps/place/Uruguay+753,+C1015ABO+CABA/@-34.5999399,-58.3885755,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccac7755e2d11:0x4fb49906009ff6fa!8m2!3d-34.5999399!4d-58.3863815
+2025-05-12 11:33:23,291 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1400.csv - 1400 filas procesadas
+2025-05-12 11:33:34,971 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1450.csv - 1450 filas procesadas
+2025-05-12 11:34:00,135 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1500.csv - 1500 filas procesadas
+2025-05-12 11:34:02,863 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/ciudadania-portena-con-todo-derecho/requisitos
+2025-05-12 11:34:02,976 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/desarrollohumanoyhabitat/ciudadaniaportena/tarjetadecompra-ciudadaniaportena
+2025-05-12 11:34:03,006 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/ciudadania-portena-con-todo-derecho/requisitos
+2025-05-12 11:34:07,394 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/desarrollohumanoyhabitat/ciudadania-portena/ciudadania-portena-con-todo-derecho/actualizacion
+2025-05-12 11:34:07,421 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/desarrollohumanoyhabitat/ciudadaniaportena/tarjetadecompra-ciudadaniaportena
+2025-05-12 11:34:08,390 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1550.csv - 1550 filas procesadas
+2025-05-12 11:34:09,983 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1600.csv - 1600 filas procesadas
+2025-05-12 11:34:10,414 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1650.csv - 1650 filas procesadas
+2025-05-12 11:34:15,324 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1700.csv - 1700 filas procesadas
+2025-05-12 11:34:32,119 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1750.csv - 1750 filas procesadas
+2025-05-12 11:34:34,673 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/desarrolloeconomico/deportes/gimnasia-para-adultos-mayores-de-60-anos-en-plaza-primero-de-mayo
+2025-05-12 11:34:41,315 - WARNING - Intento 1 fallido para URL https://cursosvirtuales.bue.edu.ar/login/forgot_password.php. Reintentando en 2 segundos. Error: HTTPSConnectionPool(host='campustalentotech.bue.edu.ar', port=443): Max retries exceeded with url: /login/forgot_password.php (Caused by ResponseError('too many 502 error responses'))
+2025-05-12 11:34:47,111 - WARNING - Intento 2 fallido para URL https://cursosvirtuales.bue.edu.ar/login/forgot_password.php. Reintentando en 4 segundos. Error: HTTPSConnectionPool(host='campustalentotech.bue.edu.ar', port=443): Max retries exceeded with url: /login/forgot_password.php (Caused by ResponseError('too many 502 error responses'))
+2025-05-12 11:34:54,913 - WARNING - Intento 3 fallido para URL https://cursosvirtuales.bue.edu.ar/login/forgot_password.php. Reintentando en 6 segundos. Error: HTTPSConnectionPool(host='campustalentotech.bue.edu.ar', port=443): Max retries exceeded with url: /login/forgot_password.php (Caused by ResponseError('too many 502 error responses'))
+2025-05-12 11:35:04,725 - WARNING - Intento 4 fallido para URL https://cursosvirtuales.bue.edu.ar/login/forgot_password.php. Reintentando en 8 segundos. Error: HTTPSConnectionPool(host='campustalentotech.bue.edu.ar', port=443): Max retries exceeded with url: /login/forgot_password.php (Caused by ResponseError('too many 502 error responses'))
+2025-05-12 11:35:16,525 - ERROR - Error después de 5 intentos para URL https://cursosvirtuales.bue.edu.ar/login/forgot_password.php: HTTPSConnectionPool(host='campustalentotech.bue.edu.ar', port=443): Max retries exceeded with url: /login/forgot_password.php (Caused by ResponseError('too many 502 error responses'))
+2025-05-12 11:35:16,527 - WARNING - NO pudo entrar a https://cursosvirtuales.bue.edu.ar/login/forgot_password.php
+2025-05-12 11:35:16,961 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1800.csv - 1800 filas procesadas
+2025-05-12 11:35:31,723 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1850.csv - 1850 filas procesadas
+2025-05-12 11:35:31,775 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1900.csv - 1900 filas procesadas
+2025-05-12 11:35:32,430 - INFO - Backup guardado en RuleName_con_urls_malas_backup_1950.csv - 1950 filas procesadas
+2025-05-12 11:35:32,842 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2000.csv - 2000 filas procesadas
+2025-05-12 11:35:37,762 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2050.csv - 2050 filas procesadas
+2025-05-12 11:35:41,576 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2100.csv - 2100 filas procesadas
+2025-05-12 11:35:41,715 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/inscripcion-al-registro-del-distrito-de-diseno-provisoria-y-definitiva
+2025-05-12 11:35:51,231 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/centro-de-documentacion-y-atencion-al-usuario
+2025-05-12 11:35:57,103 - WARNING - NO pudo entrar a http://www.buenosaires.gob.ar/tramites/inscripcion-al-registro-del-distrito-de-las-artes
+2025-05-12 11:36:06,688 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2150.csv - 2150 filas procesadas
+2025-05-12 11:36:10,177 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/beneficios-para-empresas-y-pymes/regimen-de-promocion-para-el-sector-hotelero
+2025-05-12 11:36:18,453 - WARNING - NO pudo entrar a https://turismo.buenosaires.gob.ar/es/agrupador-noticias/circuitos-de-arte-urbano?boti=
+2025-05-12 11:36:26,472 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2200.csv - 2200 filas procesadas
+2025-05-12 11:36:41,098 - WARNING - NO pudo entrar a https://turismo.buenosaires.gob.ar/es/agrupador-noticias/circuitos-de-arte-urbano?boti=
+2025-05-12 11:36:42,024 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2250.csv - 2250 filas procesadas
+2025-05-12 11:36:45,026 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/sarmientoba/alumnos/soporte-tecnico-y-mantenimiento/desbloqueo\u200b
+2025-05-12 11:36:47,078 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2300.csv - 2300 filas procesadas
+2025-05-12 11:37:34,590 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2350.csv - 2350 filas procesadas
+2025-05-12 11:37:49,469 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2400.csv - 2400 filas procesadas
+2025-05-12 11:37:54,712 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2450.csv - 2450 filas procesadas
+2025-05-12 11:37:55,697 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2500.csv - 2500 filas procesadas
+2025-05-12 11:37:59,827 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2550.csv - 2550 filas procesadas
+2025-05-12 11:38:23,090 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2600.csv - 2600 filas procesadas
+2025-05-12 11:38:30,325 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2650.csv - 2650 filas procesadas
+2025-05-12 11:38:53,027 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2700.csv - 2700 filas procesadas
+2025-05-12 11:38:55,854 - WARNING - Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A0E89C86B0>: Failed to resolve 'www.pagofacil.com.ar' ([Errno 11001] getaddrinfo failed)")': /
+2025-05-12 11:38:56,856 - WARNING - Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A0E89C9100>: Failed to resolve 'www.pagofacil.com.ar' ([Errno 11001] getaddrinfo failed)")': /
+2025-05-12 11:38:58,858 - WARNING - Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A0E89CA2D0>: Failed to resolve 'www.pagofacil.com.ar' ([Errno 11001] getaddrinfo failed)")': /
+2025-05-12 11:38:58,862 - WARNING - Intento 1 fallido para URL https://www.pagofacil.com.ar/. Reintentando en 2 segundos. Error: HTTPSConnectionPool(host='www.pagofacil.com.ar', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A0E89C8770>: Failed to resolve 'www.pagofacil.com.ar' ([Errno 11001] getaddrinfo failed)"))
+2025-05-12 11:39:03,891 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2750.csv - 2750 filas procesadas
+2025-05-12 11:39:03,898 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2800.csv - 2800 filas procesadas
+2025-05-12 11:39:03,905 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2850.csv - 2850 filas procesadas
+2025-05-12 11:39:09,949 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2900.csv - 2900 filas procesadas
+2025-05-12 11:39:33,564 - INFO - Backup guardado en RuleName_con_urls_malas_backup_2950.csv - 2950 filas procesadas
+2025-05-12 11:39:47,186 - WARNING - NO pudo entrar a https://www.bancociudad.com.ar/institucional/encuesta/Ciudad_Mujeres_Emprendedoras
+2025-05-12 11:39:52,767 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3000.csv - 3000 filas procesadas
+2025-05-12 11:39:55,702 - WARNING - NO pudo entrar a https://www.bancociudad.com.ar/institucional/micrositio/Estudiantes2022
+2025-05-12 11:40:07,156 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3050.csv - 3050 filas procesadas
+2025-05-12 11:40:12,390 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3100.csv - 3100 filas procesadas
+2025-05-12 11:40:15,379 - WARNING - NO pudo entrar a https://turistas.seguridadciudad.gob.ar/index-es.html
+2025-05-12 11:40:15,383 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3150.csv - 3150 filas procesadas
+2025-05-12 11:40:24,687 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/cultura/musica/estudiourbano/cursos-de-verano
+2025-05-12 11:40:27,620 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3200.csv - 3200 filas procesadas
+2025-05-12 11:40:30,817 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3250.csv - 3250 filas procesadas
+2025-05-12 11:40:51,571 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/desarrollohumanoyhabitat/ciudadaniaportena/requisitos-ciudadania-portena
+2025-05-12 11:40:51,720 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3300.csv - 3300 filas procesadas
+2025-05-12 11:41:06,775 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/rubrica-manual-de-documentacion-laboral
+2025-05-12 11:41:06,892 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/rubrica-digital-de-documentacion-laboral
+2025-05-12 11:41:10,147 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3350.csv - 3350 filas procesadas
+2025-05-12 11:41:44,218 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3400.csv - 3400 filas procesadas
+2025-05-12 11:41:58,146 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/residuos-peligrosos
+2025-05-12 11:42:09,695 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3450.csv - 3450 filas procesadas
+2025-05-12 11:42:56,256 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /maps/EpTGiBrFnChkmigv7
+2025-05-12 11:42:59,447 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3500.csv - 3500 filas procesadas
+2025-05-12 11:43:26,764 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3550.csv - 3550 filas procesadas
+2025-05-12 11:43:55,432 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3600.csv - 3600 filas procesadas
+2025-05-12 11:43:56,579 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/permiso-de-uso-precario-en-mercado-de-pulgas
+2025-05-12 11:44:00,542 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/permiso-de-uso-precario-en-paseos-comerciales-once
+2025-05-12 11:44:00,676 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/espacio-de-carga-y-descarga-cajon-azul
+2025-05-12 11:44:15,221 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/permiso-para-colocar-toldos-0
+2025-05-12 11:44:29,665 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3650.csv - 3650 filas procesadas
+2025-05-12 11:44:56,375 - WARNING - NO pudo entrar a https://cc25.org/
+2025-05-12 11:45:02,856 - WARNING - NO pudo entrar a https://www.cck.gob.ar/
+2025-05-12 11:45:10,796 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/certificado-de-residencia-temporaria
+2025-05-12 11:45:15,237 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/certificado-de-residencia-permanente-mercosur-y-asociados
+2025-05-12 11:45:18,430 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/tramites-por-venta-de-vehiculo-ante-la-direccion-nacional-de-los-registros-nacionales-de-la
+2025-05-12 11:45:18,434 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3700.csv - 3700 filas procesadas
+2025-05-12 11:45:28,739 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/programa-prevencion-mayor
+2025-05-12 11:45:41,228 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/inscripcion-en-el-registro-unico-de-instituciones-deportivas-ruid
+2025-05-12 11:45:46,965 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3750.csv - 3750 filas procesadas
+2025-05-12 11:45:55,374 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/registro-de-artefactos-termicos-rat-calderas
+2025-05-12 11:46:22,708 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/registro-publico-de-lugares-bailables-inscripcion-renovacion
+2025-05-12 11:46:51,574 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3800.csv - 3800 filas procesadas
+2025-05-12 11:47:30,961 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3850.csv - 3850 filas procesadas
+2025-05-12 11:47:38,100 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3900.csv - 3900 filas procesadas
+2025-05-12 11:47:48,930 - WARNING - NO pudo entrar a https://telepase.com.ar/
+2025-05-12 11:47:49,419 - WARNING - NO pudo entrar a https://telepase.com.ar/como-funciona
+2025-05-12 11:47:49,946 - WARNING - NO pudo entrar a https://telepase.com.ar/
+2025-05-12 11:47:50,443 - WARNING - NO pudo entrar a https://telepase.com.ar/login
+2025-05-12 11:47:50,931 - WARNING - NO pudo entrar a https://telepase.com.ar/login
+2025-05-12 11:47:52,118 - WARNING - NO pudo entrar a https://telepase.com.ar/register
+2025-05-12 11:47:54,190 - WARNING - NO pudo entrar a https://telepase.com.ar/login
+2025-05-12 11:47:55,320 - WARNING - NO pudo entrar a https://telepase.com.ar/login
+2025-05-12 11:47:55,835 - WARNING - NO pudo entrar a https://telepase.com.ar/login
+2025-05-12 11:47:56,307 - WARNING - NO pudo entrar a https://eje.juscaba.gob.ar/iol-ui/p/agendaPublica?tituloBusqueda=Agenda%20p%C3%BAblica&tipoBusqueda=AGE
+2025-05-12 11:48:01,346 - INFO - Backup guardado en RuleName_con_urls_malas_backup_3950.csv - 3950 filas procesadas
+2025-05-12 11:48:06,276 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4000.csv - 4000 filas procesadas
+2025-05-12 11:48:08,336 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4050.csv - 4050 filas procesadas
+2025-05-12 11:48:20,628 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4100.csv - 4100 filas procesadas
+2025-05-12 11:48:23,888 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4150.csv - 4150 filas procesadas
+2025-05-12 11:48:41,057 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4200.csv - 4200 filas procesadas
+2025-05-12 11:49:04,624 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4250.csv - 4250 filas procesadas
+2025-05-12 11:49:15,604 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4300.csv - 4300 filas procesadas
+2025-05-12 11:49:19,458 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/rendicion-de-subsidio-habitacional-para-el-programa-de-atencion-para-familias-en-situacion
+2025-05-12 11:49:24,584 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4350.csv - 4350 filas procesadas
+2025-05-12 11:49:31,910 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4400.csv - 4400 filas procesadas
+2025-05-12 11:49:37,875 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/impacto-ambiental-renovacion-o-modificacion-del-certificado-de-aptitud-ambiental-caa
+2025-05-12 11:49:38,783 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/solicitud-de-copia-digital-de-expediente-yo-documento
+2025-05-12 11:49:43,697 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4450.csv - 4450 filas procesadas
+2025-05-12 11:49:48,777 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4500.csv - 4500 filas procesadas
+2025-05-12 11:49:49,181 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4550.csv - 4550 filas procesadas
+2025-05-12 11:49:49,190 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4600.csv - 4600 filas procesadas
+2025-05-12 11:49:57,871 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4650.csv - 4650 filas procesadas
+2025-05-12 11:50:16,369 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4700.csv - 4700 filas procesadas
+2025-05-12 11:50:40,840 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4750.csv - 4750 filas procesadas
+2025-05-12 11:50:55,221 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4800.csv - 4800 filas procesadas
+2025-05-12 11:50:59,908 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/cdnnya/programa-abrazar/inscripcion-al-programa
+2025-05-12 11:51:01,010 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4850.csv - 4850 filas procesadas
+2025-05-12 11:51:04,369 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/solicitud-de-copia-digital-de-expediente-yo-documento
+2025-05-12 11:51:11,057 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4900.csv - 4900 filas procesadas
+2025-05-12 11:51:15,657 - WARNING - NO pudo entrar a https://botm.cc/l/3piqJES
+2025-05-12 11:51:16,463 - INFO - Backup guardado en RuleName_con_urls_malas_backup_4950.csv - 4950 filas procesadas
+2025-05-12 11:51:31,170 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5000.csv - 5000 filas procesadas
+2025-05-12 11:51:45,527 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/cdnnya/acogimiento-familiar/conoce-mas-sobre-acogimiento-familiar
+2025-05-12 11:51:54,017 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5050.csv - 5050 filas procesadas
+2025-05-12 11:51:54,541 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5100.csv - 5100 filas procesadas
+2025-05-12 11:51:54,549 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5150.csv - 5150 filas procesadas
+2025-05-12 11:51:54,557 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5200.csv - 5200 filas procesadas
+2025-05-12 11:51:56,896 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5250.csv - 5250 filas procesadas
+2025-05-12 11:51:57,836 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/inscripcion-al-registro-de-generadores-especiales-de-residuos-solidos-urbanos-fraccion
+2025-05-12 11:52:00,534 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/inscripcion-al-registro-de-generadores-especiales-de-residuos-solidos-urbanos-rsu
+2025-05-12 11:52:19,633 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5300.csv - 5300 filas procesadas
+2025-05-12 11:52:39,715 - WARNING - NO pudo entrar a http://sistemas1.buenosaires.edu.ar/wsad/ficha_censal.php/
+2025-05-12 11:52:40,204 - WARNING - NO pudo entrar a https://clasificaciondocente.buenosaires.gob.ar/index.php/docente_temporal/new
+2025-05-12 11:52:40,211 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5350.csv - 5350 filas procesadas
+2025-05-12 11:52:40,319 - WARNING - NO pudo entrar a http://sistemas1.buenosaires.edu.ar/wsad/declaracion_jurada.php/
+2025-05-12 11:52:42,588 - WARNING - NO pudo entrar a https://clasificaciondocente.buenosaires.gob.ar/index.php/consulta_comision
+2025-05-12 11:52:47,265 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/desarrolloeconomico/plan-de-transformacion-y-reconversion-del-microcentro-porteno
+2025-05-12 11:52:47,387 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/desarrolloeconomico/plan-de-transformacion-y-reconversion-del-microcentro-porteno
+2025-05-12 11:52:48,487 - WARNING - NO pudo entrar a https://www.formulariosgcba.gob.ar/yvMRkrQKZYPmOnXdW2V3/canal/web
+2025-05-12 11:52:52,420 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5400.csv - 5400 filas procesadas
+2025-05-12 11:53:05,883 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5450.csv - 5450 filas procesadas
+2025-05-12 11:53:20,616 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5500.csv - 5500 filas procesadas
+2025-05-12 11:53:24,482 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5550.csv - 5550 filas procesadas
+2025-05-12 11:53:29,922 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5600.csv - 5600 filas procesadas
+2025-05-12 11:53:33,910 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5650.csv - 5650 filas procesadas
+2025-05-12 11:53:35,678 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5700.csv - 5700 filas procesadas
+2025-05-12 11:53:41,403 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5750.csv - 5750 filas procesadas
+2025-05-12 11:53:41,411 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5800.csv - 5800 filas procesadas
+2025-05-12 11:53:42,919 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5850.csv - 5850 filas procesadas
+2025-05-12 11:53:49,237 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/tramites/uniones-civiles-convivenciales-online
+2025-05-12 11:53:49,316 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5900.csv - 5900 filas procesadas
+2025-05-12 11:53:53,738 - WARNING - NO pudo entrar a https://bafici.org/wp-content/uploads/26BAFICI-Programa-WEB-4.pdf
+2025-05-12 11:54:05,831 - INFO - Backup guardado en RuleName_con_urls_malas_backup_5950.csv - 5950 filas procesadas
+2025-05-12 11:54:08,175 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6000.csv - 6000 filas procesadas
+2025-05-12 11:54:19,852 - WARNING - NO pudo entrar a https://buenosaires.gob.ar/vicejefatura/ba-discapacidad/cud
+2025-05-12 11:54:25,625 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6050.csv - 6050 filas procesadas
+2025-05-12 11:54:26,872 - WARNING - NO pudo entrar a https://www.buenosaires.gob.ar/tramites/renovacion-de-matricula-de-administradores-de-consorcios
+2025-05-12 11:54:29,490 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6100.csv - 6100 filas procesadas
+2025-05-12 11:54:36,433 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6150.csv - 6150 filas procesadas
+2025-05-12 11:54:36,858 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:38,255 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:40,652 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:41,050 - WARNING - Intento 1 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 2 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:54:43,454 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:44,816 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:47,212 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:47,597 - WARNING - Intento 2 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 4 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:54:52,035 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:53,431 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:55,814 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:54:56,207 - WARNING - Intento 3 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 6 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:02,624 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:03,982 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:06,354 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:06,736 - WARNING - Intento 4 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 8 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:15,127 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:16,487 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:18,910 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:19,353 - ERROR - Error después de 5 intentos para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:19,354 - WARNING - NO pudo entrar a https://suaci-gcba.buenosaires.gob.ar/suaci/index
+2025-05-12 11:55:22,436 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6200.csv - 6200 filas procesadas
+2025-05-12 11:55:24,108 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6250.csv - 6250 filas procesadas
+2025-05-12 11:55:32,248 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:33,626 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:35,999 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:36,385 - WARNING - Intento 1 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 2 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:38,835 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:40,217 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:42,610 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:42,981 - WARNING - Intento 2 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 4 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:47,376 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:48,748 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:51,134 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:51,550 - WARNING - Intento 3 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 6 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:55:57,969 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:55:59,352 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:01,746 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:02,352 - WARNING - Intento 4 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 8 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:10,810 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:12,229 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:14,676 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:15,120 - ERROR - Error después de 5 intentos para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:15,121 - WARNING - NO pudo entrar a https://suaci-gcba.buenosaires.gob.ar/suaci/index
+2025-05-12 11:56:15,127 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6300.csv - 6300 filas procesadas
+2025-05-12 11:56:15,570 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:17,011 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:19,424 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:19,804 - WARNING - Intento 1 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 2 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:22,233 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:23,632 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:26,090 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:26,494 - WARNING - Intento 2 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 4 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:30,915 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:32,381 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:34,777 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:35,157 - WARNING - Intento 3 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 6 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:41,576 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:42,971 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:45,361 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:45,797 - WARNING - Intento 4 fallido para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index. Reintentando en 8 segundos. Error: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:54,218 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:55,620 - WARNING - Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:58,069 - WARNING - Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /suaci/index
+2025-05-12 11:56:58,511 - ERROR - Error después de 5 intentos para URL https://suaci-gcba.buenosaires.gob.ar/suaci/index: HTTPSConnectionPool(host='suaci-gcba.buenosaires.gob.ar', port=443): Max retries exceeded with url: /suaci/index (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-05-12 11:56:58,512 - WARNING - NO pudo entrar a https://suaci-gcba.buenosaires.gob.ar/suaci/index
+2025-05-12 11:56:58,958 - WARNING - NO pudo entrar a https://formulario-sigeci.buenosaires.gob.ar/InicioTramiteComun?idPrestacion=3565
+2025-05-12 11:57:01,363 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6350.csv - 6350 filas procesadas
+2025-05-12 11:57:06,311 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6400.csv - 6400 filas procesadas
+2025-05-12 11:57:09,674 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6450.csv - 6450 filas procesadas
+2025-05-12 11:57:10,594 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6500.csv - 6500 filas procesadas
+2025-05-12 11:57:10,601 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6550.csv - 6550 filas procesadas
+2025-05-12 11:57:18,096 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6600.csv - 6600 filas procesadas
+2025-05-12 11:57:25,519 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /aportesenlinea/
+2025-05-12 11:57:32,415 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6650.csv - 6650 filas procesadas
+2025-05-12 11:57:39,642 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6700.csv - 6700 filas procesadas
+2025-05-12 11:57:46,094 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6750.csv - 6750 filas procesadas
+2025-05-12 11:57:46,528 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6800.csv - 6800 filas procesadas
+2025-05-12 11:57:46,536 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6850.csv - 6850 filas procesadas
+2025-05-12 11:57:56,194 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6900.csv - 6900 filas procesadas
+2025-05-12 11:58:01,274 - WARNING - Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /jefaturadegabinete/innovacion/ba-gaming
+2025-05-12 11:58:03,934 - INFO - Backup guardado en RuleName_con_urls_malas_backup_6950.csv - 6950 filas procesadas
+2025-05-12 11:58:05,990 - INFO - Backup guardado en RuleName_con_urls_malas_backup_7000.csv - 7000 filas procesadas
+2025-05-12 11:58:18,033 - INFO - Backup guardado en RuleName_con_urls_malas_backup_7050.csv - 7050 filas procesadas
+2025-05-12 11:58:22,491 - INFO - Backup guardado en RuleName_con_urls_malas_backup_7100.csv - 7100 filas procesadas
+2025-05-12 11:58:31,078 - INFO - Backup guardado en RuleName_con_urls_malas_backup_7150.csv - 7150 filas procesadas
+2025-05-12 11:58:37,462 - INFO - Backup guardado en RuleName_con_urls_malas_backup_7200.csv - 7200 filas procesadas
+2025-05-12 11:58:38,550 - INFO - Exportando resultados finales
+2025-05-12 11:58:38,560 - INFO - Resumen del proceso:
+2025-05-12 11:58:38,561 - INFO - Hora de inicio: 2025-05-12 11:29:30
+2025-05-12 11:58:38,561 - INFO - Hora de finalización: 2025-05-12 11:58:38
+2025-05-12 11:58:38,563 - INFO - Tiempo transcurrido: 00:29:08
+2025-05-12 11:58:38,563 - INFO - Total de URLs analizadas: 1992
+2025-05-12 11:58:38,563 - INFO - URLs inválidas encontradas: 82 (4%)
