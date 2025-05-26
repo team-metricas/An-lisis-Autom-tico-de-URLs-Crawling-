@@ -1,0 +1,460 @@
+2025-05-15 14:25:04,449 - INFO - Iniciando búsqueda de Google Forms
+2025-05-15 14:25:04,452 - INFO - Cargando archivo rules-2025.05.06-13.03.tsv
+2025-05-15 14:25:04,557 - INFO - Archivo cargado con 11549 filas
+2025-05-15 14:25:04,673 - INFO - Cantidad de filas a procesar: 7216
+2025-05-15 14:25:04,684 - INFO - Backup guardado en RuleName_con_google_forms_backup_50.csv - 50 filas procesadas
+2025-05-15 14:25:04,690 - INFO - Backup guardado en RuleName_con_google_forms_backup_100.csv - 100 filas procesadas
+2025-05-15 14:25:04,697 - INFO - Backup guardado en RuleName_con_google_forms_backup_150.csv - 150 filas procesadas
+2025-05-15 14:25:04,704 - INFO - Backup guardado en RuleName_con_google_forms_backup_200.csv - 200 filas procesadas
+2025-05-15 14:25:04,710 - INFO - Backup guardado en RuleName_con_google_forms_backup_250.csv - 250 filas procesadas
+2025-05-15 14:25:04,717 - INFO - Backup guardado en RuleName_con_google_forms_backup_300.csv - 300 filas procesadas
+2025-05-15 14:25:04,723 - INFO - Backup guardado en RuleName_con_google_forms_backup_350.csv - 350 filas procesadas
+2025-05-15 14:25:04,729 - INFO - Backup guardado en RuleName_con_google_forms_backup_400.csv - 400 filas procesadas
+2025-05-15 14:25:04,736 - INFO - Backup guardado en RuleName_con_google_forms_backup_450.csv - 450 filas procesadas
+2025-05-15 14:25:04,742 - INFO - Backup guardado en RuleName_con_google_forms_backup_500.csv - 500 filas procesadas
+2025-05-15 14:25:04,749 - INFO - Backup guardado en RuleName_con_google_forms_backup_550.csv - 550 filas procesadas
+2025-05-15 14:25:04,755 - INFO - Backup guardado en RuleName_con_google_forms_backup_600.csv - 600 filas procesadas
+2025-05-15 14:25:04,762 - INFO - Backup guardado en RuleName_con_google_forms_backup_650.csv - 650 filas procesadas
+2025-05-15 14:25:04,768 - INFO - Backup guardado en RuleName_con_google_forms_backup_700.csv - 700 filas procesadas
+2025-05-15 14:25:04,774 - INFO - Backup guardado en RuleName_con_google_forms_backup_750.csv - 750 filas procesadas
+2025-05-15 14:25:04,781 - INFO - Backup guardado en RuleName_con_google_forms_backup_800.csv - 800 filas procesadas
+2025-05-15 14:25:04,787 - INFO - Backup guardado en RuleName_con_google_forms_backup_850.csv - 850 filas procesadas
+2025-05-15 14:25:04,794 - INFO - Backup guardado en RuleName_con_google_forms_backup_900.csv - 900 filas procesadas
+2025-05-15 14:25:04,800 - INFO - Backup guardado en RuleName_con_google_forms_backup_950.csv - 950 filas procesadas
+2025-05-15 14:25:04,807 - INFO - Backup guardado en RuleName_con_google_forms_backup_1000.csv - 1000 filas procesadas
+2025-05-15 14:25:04,814 - INFO - Backup guardado en RuleName_con_google_forms_backup_1050.csv - 1050 filas procesadas
+2025-05-15 14:25:04,820 - INFO - Backup guardado en RuleName_con_google_forms_backup_1100.csv - 1100 filas procesadas
+2025-05-15 14:25:04,826 - INFO - Backup guardado en RuleName_con_google_forms_backup_1150.csv - 1150 filas procesadas
+2025-05-15 14:25:04,832 - INFO - Backup guardado en RuleName_con_google_forms_backup_1200.csv - 1200 filas procesadas
+2025-05-15 14:25:04,838 - INFO - Backup guardado en RuleName_con_google_forms_backup_1250.csv - 1250 filas procesadas
+2025-05-15 14:25:04,845 - INFO - Backup guardado en RuleName_con_google_forms_backup_1300.csv - 1300 filas procesadas
+2025-05-15 14:25:04,851 - INFO - Backup guardado en RuleName_con_google_forms_backup_1350.csv - 1350 filas procesadas
+2025-05-15 14:25:04,858 - INFO - Backup guardado en RuleName_con_google_forms_backup_1400.csv - 1400 filas procesadas
+2025-05-15 14:25:04,864 - INFO - Backup guardado en RuleName_con_google_forms_backup_1450.csv - 1450 filas procesadas
+2025-05-15 14:25:04,871 - INFO - Backup guardado en RuleName_con_google_forms_backup_1500.csv - 1500 filas procesadas
+2025-05-15 14:25:04,877 - INFO - Backup guardado en RuleName_con_google_forms_backup_1550.csv - 1550 filas procesadas
+2025-05-15 14:25:04,883 - INFO - Backup guardado en RuleName_con_google_forms_backup_1600.csv - 1600 filas procesadas
+2025-05-15 14:25:04,889 - INFO - Backup guardado en RuleName_con_google_forms_backup_1650.csv - 1650 filas procesadas
+2025-05-15 14:25:04,896 - INFO - Backup guardado en RuleName_con_google_forms_backup_1700.csv - 1700 filas procesadas
+2025-05-15 14:25:04,903 - INFO - Backup guardado en RuleName_con_google_forms_backup_1750.csv - 1750 filas procesadas
+2025-05-15 14:25:04,909 - INFO - Backup guardado en RuleName_con_google_forms_backup_1800.csv - 1800 filas procesadas
+2025-05-15 14:25:04,916 - INFO - Backup guardado en RuleName_con_google_forms_backup_1850.csv - 1850 filas procesadas
+2025-05-15 14:25:04,923 - INFO - Backup guardado en RuleName_con_google_forms_backup_1900.csv - 1900 filas procesadas
+2025-05-15 14:25:04,930 - INFO - Backup guardado en RuleName_con_google_forms_backup_1950.csv - 1950 filas procesadas
+2025-05-15 14:25:04,938 - INFO - Backup guardado en RuleName_con_google_forms_backup_2000.csv - 2000 filas procesadas
+2025-05-15 14:25:04,945 - INFO - Backup guardado en RuleName_con_google_forms_backup_2050.csv - 2050 filas procesadas
+2025-05-15 14:25:04,952 - INFO - Backup guardado en RuleName_con_google_forms_backup_2100.csv - 2100 filas procesadas
+2025-05-15 14:25:04,958 - INFO - Backup guardado en RuleName_con_google_forms_backup_2150.csv - 2150 filas procesadas
+2025-05-15 14:25:04,965 - INFO - Backup guardado en RuleName_con_google_forms_backup_2200.csv - 2200 filas procesadas
+2025-05-15 14:25:04,971 - INFO - Backup guardado en RuleName_con_google_forms_backup_2250.csv - 2250 filas procesadas
+2025-05-15 14:25:04,977 - INFO - Backup guardado en RuleName_con_google_forms_backup_2300.csv - 2300 filas procesadas
+2025-05-15 14:25:04,983 - INFO - Backup guardado en RuleName_con_google_forms_backup_2350.csv - 2350 filas procesadas
+2025-05-15 14:25:04,989 - INFO - Backup guardado en RuleName_con_google_forms_backup_2400.csv - 2400 filas procesadas
+2025-05-15 14:25:04,995 - INFO - Backup guardado en RuleName_con_google_forms_backup_2450.csv - 2450 filas procesadas
+2025-05-15 14:25:05,001 - INFO - Backup guardado en RuleName_con_google_forms_backup_2500.csv - 2500 filas procesadas
+2025-05-15 14:25:05,007 - INFO - Backup guardado en RuleName_con_google_forms_backup_2550.csv - 2550 filas procesadas
+2025-05-15 14:25:05,013 - INFO - Backup guardado en RuleName_con_google_forms_backup_2600.csv - 2600 filas procesadas
+2025-05-15 14:25:05,020 - INFO - Backup guardado en RuleName_con_google_forms_backup_2650.csv - 2650 filas procesadas
+2025-05-15 14:25:05,028 - INFO - Backup guardado en RuleName_con_google_forms_backup_2700.csv - 2700 filas procesadas
+2025-05-15 14:25:05,035 - INFO - Backup guardado en RuleName_con_google_forms_backup_2750.csv - 2750 filas procesadas
+2025-05-15 14:25:05,043 - INFO - Backup guardado en RuleName_con_google_forms_backup_2800.csv - 2800 filas procesadas
+2025-05-15 14:25:05,050 - INFO - Backup guardado en RuleName_con_google_forms_backup_2850.csv - 2850 filas procesadas
+2025-05-15 14:25:05,057 - INFO - Backup guardado en RuleName_con_google_forms_backup_2900.csv - 2900 filas procesadas
+2025-05-15 14:25:05,063 - INFO - Backup guardado en RuleName_con_google_forms_backup_2950.csv - 2950 filas procesadas
+2025-05-15 14:25:05,070 - INFO - Backup guardado en RuleName_con_google_forms_backup_3000.csv - 3000 filas procesadas
+2025-05-15 14:25:05,077 - INFO - Backup guardado en RuleName_con_google_forms_backup_3050.csv - 3050 filas procesadas
+2025-05-15 14:25:05,083 - INFO - Backup guardado en RuleName_con_google_forms_backup_3100.csv - 3100 filas procesadas
+2025-05-15 14:25:05,090 - INFO - Backup guardado en RuleName_con_google_forms_backup_3150.csv - 3150 filas procesadas
+2025-05-15 14:25:05,097 - INFO - Backup guardado en RuleName_con_google_forms_backup_3200.csv - 3200 filas procesadas
+2025-05-15 14:25:05,103 - INFO - Backup guardado en RuleName_con_google_forms_backup_3250.csv - 3250 filas procesadas
+2025-05-15 14:25:05,110 - INFO - Backup guardado en RuleName_con_google_forms_backup_3300.csv - 3300 filas procesadas
+2025-05-15 14:25:05,117 - INFO - Backup guardado en RuleName_con_google_forms_backup_3350.csv - 3350 filas procesadas
+2025-05-15 14:25:05,123 - INFO - Backup guardado en RuleName_con_google_forms_backup_3400.csv - 3400 filas procesadas
+2025-05-15 14:25:05,129 - INFO - Backup guardado en RuleName_con_google_forms_backup_3450.csv - 3450 filas procesadas
+2025-05-15 14:25:05,136 - INFO - Backup guardado en RuleName_con_google_forms_backup_3500.csv - 3500 filas procesadas
+2025-05-15 14:25:05,143 - INFO - Backup guardado en RuleName_con_google_forms_backup_3550.csv - 3550 filas procesadas
+2025-05-15 14:25:05,149 - INFO - Backup guardado en RuleName_con_google_forms_backup_3600.csv - 3600 filas procesadas
+2025-05-15 14:25:05,156 - INFO - Backup guardado en RuleName_con_google_forms_backup_3650.csv - 3650 filas procesadas
+2025-05-15 14:25:05,162 - INFO - Backup guardado en RuleName_con_google_forms_backup_3700.csv - 3700 filas procesadas
+2025-05-15 14:25:05,169 - INFO - Backup guardado en RuleName_con_google_forms_backup_3750.csv - 3750 filas procesadas
+2025-05-15 14:25:05,175 - INFO - Backup guardado en RuleName_con_google_forms_backup_3800.csv - 3800 filas procesadas
+2025-05-15 14:25:05,182 - INFO - Backup guardado en RuleName_con_google_forms_backup_3850.csv - 3850 filas procesadas
+2025-05-15 14:25:05,188 - INFO - Backup guardado en RuleName_con_google_forms_backup_3900.csv - 3900 filas procesadas
+2025-05-15 14:25:05,194 - INFO - Backup guardado en RuleName_con_google_forms_backup_3950.csv - 3950 filas procesadas
+2025-05-15 14:25:05,201 - INFO - Backup guardado en RuleName_con_google_forms_backup_4000.csv - 4000 filas procesadas
+2025-05-15 14:25:05,207 - INFO - Backup guardado en RuleName_con_google_forms_backup_4050.csv - 4050 filas procesadas
+2025-05-15 14:25:05,213 - INFO - Backup guardado en RuleName_con_google_forms_backup_4100.csv - 4100 filas procesadas
+2025-05-15 14:25:05,220 - INFO - Backup guardado en RuleName_con_google_forms_backup_4150.csv - 4150 filas procesadas
+2025-05-15 14:25:05,228 - INFO - Backup guardado en RuleName_con_google_forms_backup_4200.csv - 4200 filas procesadas
+2025-05-15 14:25:05,235 - INFO - Backup guardado en RuleName_con_google_forms_backup_4250.csv - 4250 filas procesadas
+2025-05-15 14:25:05,242 - INFO - Backup guardado en RuleName_con_google_forms_backup_4300.csv - 4300 filas procesadas
+2025-05-15 14:25:05,248 - INFO - Backup guardado en RuleName_con_google_forms_backup_4350.csv - 4350 filas procesadas
+2025-05-15 14:25:05,255 - INFO - Backup guardado en RuleName_con_google_forms_backup_4400.csv - 4400 filas procesadas
+2025-05-15 14:25:05,262 - INFO - Backup guardado en RuleName_con_google_forms_backup_4450.csv - 4450 filas procesadas
+2025-05-15 14:25:05,269 - INFO - Backup guardado en RuleName_con_google_forms_backup_4500.csv - 4500 filas procesadas
+2025-05-15 14:25:05,276 - INFO - Backup guardado en RuleName_con_google_forms_backup_4550.csv - 4550 filas procesadas
+2025-05-15 14:25:05,282 - INFO - Backup guardado en RuleName_con_google_forms_backup_4600.csv - 4600 filas procesadas
+2025-05-15 14:25:05,289 - INFO - Backup guardado en RuleName_con_google_forms_backup_4650.csv - 4650 filas procesadas
+2025-05-15 14:25:05,296 - INFO - Backup guardado en RuleName_con_google_forms_backup_4700.csv - 4700 filas procesadas
+2025-05-15 14:25:05,302 - INFO - Backup guardado en RuleName_con_google_forms_backup_4750.csv - 4750 filas procesadas
+2025-05-15 14:25:05,309 - INFO - Backup guardado en RuleName_con_google_forms_backup_4800.csv - 4800 filas procesadas
+2025-05-15 14:25:05,315 - INFO - Backup guardado en RuleName_con_google_forms_backup_4850.csv - 4850 filas procesadas
+2025-05-15 14:25:05,322 - INFO - Backup guardado en RuleName_con_google_forms_backup_4900.csv - 4900 filas procesadas
+2025-05-15 14:25:05,328 - INFO - Backup guardado en RuleName_con_google_forms_backup_4950.csv - 4950 filas procesadas
+2025-05-15 14:25:05,335 - INFO - Backup guardado en RuleName_con_google_forms_backup_5000.csv - 5000 filas procesadas
+2025-05-15 14:25:05,341 - INFO - Backup guardado en RuleName_con_google_forms_backup_5050.csv - 5050 filas procesadas
+2025-05-15 14:25:05,348 - INFO - Backup guardado en RuleName_con_google_forms_backup_5100.csv - 5100 filas procesadas
+2025-05-15 14:25:05,354 - INFO - Backup guardado en RuleName_con_google_forms_backup_5150.csv - 5150 filas procesadas
+2025-05-15 14:25:05,360 - INFO - Backup guardado en RuleName_con_google_forms_backup_5200.csv - 5200 filas procesadas
+2025-05-15 14:25:05,366 - INFO - Backup guardado en RuleName_con_google_forms_backup_5250.csv - 5250 filas procesadas
+2025-05-15 14:25:05,372 - INFO - Backup guardado en RuleName_con_google_forms_backup_5300.csv - 5300 filas procesadas
+2025-05-15 14:25:05,379 - INFO - Backup guardado en RuleName_con_google_forms_backup_5350.csv - 5350 filas procesadas
+2025-05-15 14:25:05,386 - INFO - Backup guardado en RuleName_con_google_forms_backup_5400.csv - 5400 filas procesadas
+2025-05-15 14:25:05,393 - INFO - Backup guardado en RuleName_con_google_forms_backup_5450.csv - 5450 filas procesadas
+2025-05-15 14:25:05,406 - INFO - Backup guardado en RuleName_con_google_forms_backup_5500.csv - 5500 filas procesadas
+2025-05-15 14:25:05,415 - INFO - Backup guardado en RuleName_con_google_forms_backup_5550.csv - 5550 filas procesadas
+2025-05-15 14:25:05,421 - INFO - Backup guardado en RuleName_con_google_forms_backup_5600.csv - 5600 filas procesadas
+2025-05-15 14:25:05,427 - INFO - Backup guardado en RuleName_con_google_forms_backup_5650.csv - 5650 filas procesadas
+2025-05-15 14:25:05,434 - INFO - Backup guardado en RuleName_con_google_forms_backup_5700.csv - 5700 filas procesadas
+2025-05-15 14:25:05,441 - INFO - Backup guardado en RuleName_con_google_forms_backup_5750.csv - 5750 filas procesadas
+2025-05-15 14:25:05,447 - INFO - Backup guardado en RuleName_con_google_forms_backup_5800.csv - 5800 filas procesadas
+2025-05-15 14:25:05,453 - INFO - Backup guardado en RuleName_con_google_forms_backup_5850.csv - 5850 filas procesadas
+2025-05-15 14:25:05,461 - INFO - Backup guardado en RuleName_con_google_forms_backup_5900.csv - 5900 filas procesadas
+2025-05-15 14:25:05,468 - INFO - Backup guardado en RuleName_con_google_forms_backup_5950.csv - 5950 filas procesadas
+2025-05-15 14:25:05,476 - INFO - Backup guardado en RuleName_con_google_forms_backup_6000.csv - 6000 filas procesadas
+2025-05-15 14:25:05,482 - INFO - Backup guardado en RuleName_con_google_forms_backup_6050.csv - 6050 filas procesadas
+2025-05-15 14:25:05,490 - INFO - Backup guardado en RuleName_con_google_forms_backup_6100.csv - 6100 filas procesadas
+2025-05-15 14:25:05,497 - INFO - Backup guardado en RuleName_con_google_forms_backup_6150.csv - 6150 filas procesadas
+2025-05-15 14:25:05,503 - INFO - Backup guardado en RuleName_con_google_forms_backup_6200.csv - 6200 filas procesadas
+2025-05-15 14:25:05,510 - INFO - Backup guardado en RuleName_con_google_forms_backup_6250.csv - 6250 filas procesadas
+2025-05-15 14:25:05,517 - INFO - Backup guardado en RuleName_con_google_forms_backup_6300.csv - 6300 filas procesadas
+2025-05-15 14:25:05,525 - INFO - Backup guardado en RuleName_con_google_forms_backup_6350.csv - 6350 filas procesadas
+2025-05-15 14:25:05,531 - INFO - Backup guardado en RuleName_con_google_forms_backup_6400.csv - 6400 filas procesadas
+2025-05-15 14:25:05,538 - INFO - Backup guardado en RuleName_con_google_forms_backup_6450.csv - 6450 filas procesadas
+2025-05-15 14:25:05,545 - INFO - Backup guardado en RuleName_con_google_forms_backup_6500.csv - 6500 filas procesadas
+2025-05-15 14:25:05,552 - INFO - Backup guardado en RuleName_con_google_forms_backup_6550.csv - 6550 filas procesadas
+2025-05-15 14:25:05,559 - INFO - Backup guardado en RuleName_con_google_forms_backup_6600.csv - 6600 filas procesadas
+2025-05-15 14:25:05,566 - INFO - Backup guardado en RuleName_con_google_forms_backup_6650.csv - 6650 filas procesadas
+2025-05-15 14:25:05,573 - INFO - Backup guardado en RuleName_con_google_forms_backup_6700.csv - 6700 filas procesadas
+2025-05-15 14:25:05,579 - INFO - Backup guardado en RuleName_con_google_forms_backup_6750.csv - 6750 filas procesadas
+2025-05-15 14:25:05,586 - INFO - Backup guardado en RuleName_con_google_forms_backup_6800.csv - 6800 filas procesadas
+2025-05-15 14:25:05,593 - INFO - Backup guardado en RuleName_con_google_forms_backup_6850.csv - 6850 filas procesadas
+2025-05-15 14:25:05,600 - INFO - Backup guardado en RuleName_con_google_forms_backup_6900.csv - 6900 filas procesadas
+2025-05-15 14:25:05,606 - INFO - Backup guardado en RuleName_con_google_forms_backup_6950.csv - 6950 filas procesadas
+2025-05-15 14:25:05,613 - INFO - Backup guardado en RuleName_con_google_forms_backup_7000.csv - 7000 filas procesadas
+2025-05-15 14:25:05,620 - INFO - Backup guardado en RuleName_con_google_forms_backup_7050.csv - 7050 filas procesadas
+2025-05-15 14:25:05,626 - INFO - Backup guardado en RuleName_con_google_forms_backup_7100.csv - 7100 filas procesadas
+2025-05-15 14:25:05,633 - INFO - Backup guardado en RuleName_con_google_forms_backup_7150.csv - 7150 filas procesadas
+2025-05-15 14:25:05,639 - INFO - Backup guardado en RuleName_con_google_forms_backup_7200.csv - 7200 filas procesadas
+2025-05-15 14:25:05,643 - INFO - Exportando resultados finales
+2025-05-15 14:25:05,647 - INFO - Resumen del proceso:
+2025-05-15 14:25:05,648 - INFO - Hora de inicio: 2025-05-15 14:25:04
+2025-05-15 14:25:05,649 - INFO - Hora de finalización: 2025-05-15 14:25:05
+2025-05-15 14:25:05,650 - INFO - Tiempo transcurrido: 00:00:01
+2025-05-15 14:25:05,651 - INFO - Total de Google Forms encontrados: 26
+2025-05-15 14:25:05,651 - INFO - Google Forms únicos: 21
+2025-05-15 14:25:05,652 - INFO - Filas con Google Forms: 22 de 7216 (0.3%)
+2025-05-15 14:33:02,420 - INFO - Iniciando búsqueda de Google Forms
+2025-05-15 14:33:02,424 - INFO - Cargando archivo rules-2025.05.06-13.03.tsv
+2025-05-15 14:33:02,512 - INFO - Archivo cargado con 11549 filas
+2025-05-15 14:33:02,624 - INFO - Cantidad de filas a procesar: 7216
+2025-05-15 14:33:02,632 - INFO - Backup guardado en RuleName_con_google_forms_backup_50.csv - 50 filas procesadas
+2025-05-15 14:33:02,638 - INFO - Backup guardado en RuleName_con_google_forms_backup_100.csv - 100 filas procesadas
+2025-05-15 14:33:02,643 - INFO - Backup guardado en RuleName_con_google_forms_backup_150.csv - 150 filas procesadas
+2025-05-15 14:33:02,650 - INFO - Backup guardado en RuleName_con_google_forms_backup_200.csv - 200 filas procesadas
+2025-05-15 14:33:02,657 - INFO - Backup guardado en RuleName_con_google_forms_backup_250.csv - 250 filas procesadas
+2025-05-15 14:33:02,662 - INFO - Backup guardado en RuleName_con_google_forms_backup_300.csv - 300 filas procesadas
+2025-05-15 14:33:02,669 - INFO - Backup guardado en RuleName_con_google_forms_backup_350.csv - 350 filas procesadas
+2025-05-15 14:33:02,674 - INFO - Backup guardado en RuleName_con_google_forms_backup_400.csv - 400 filas procesadas
+2025-05-15 14:33:02,681 - INFO - Backup guardado en RuleName_con_google_forms_backup_450.csv - 450 filas procesadas
+2025-05-15 14:33:02,687 - INFO - Backup guardado en RuleName_con_google_forms_backup_500.csv - 500 filas procesadas
+2025-05-15 14:33:02,692 - INFO - Backup guardado en RuleName_con_google_forms_backup_550.csv - 550 filas procesadas
+2025-05-15 14:33:02,699 - INFO - Backup guardado en RuleName_con_google_forms_backup_600.csv - 600 filas procesadas
+2025-05-15 14:33:02,705 - INFO - Backup guardado en RuleName_con_google_forms_backup_650.csv - 650 filas procesadas
+2025-05-15 14:33:02,712 - INFO - Backup guardado en RuleName_con_google_forms_backup_700.csv - 700 filas procesadas
+2025-05-15 14:33:02,718 - INFO - Backup guardado en RuleName_con_google_forms_backup_750.csv - 750 filas procesadas
+2025-05-15 14:33:02,724 - INFO - Backup guardado en RuleName_con_google_forms_backup_800.csv - 800 filas procesadas
+2025-05-15 14:33:02,730 - INFO - Backup guardado en RuleName_con_google_forms_backup_850.csv - 850 filas procesadas
+2025-05-15 14:33:02,736 - INFO - Backup guardado en RuleName_con_google_forms_backup_900.csv - 900 filas procesadas
+2025-05-15 14:33:02,742 - INFO - Backup guardado en RuleName_con_google_forms_backup_950.csv - 950 filas procesadas
+2025-05-15 14:33:02,747 - INFO - Backup guardado en RuleName_con_google_forms_backup_1000.csv - 1000 filas procesadas
+2025-05-15 14:33:02,754 - INFO - Backup guardado en RuleName_con_google_forms_backup_1050.csv - 1050 filas procesadas
+2025-05-15 14:33:02,759 - INFO - Backup guardado en RuleName_con_google_forms_backup_1100.csv - 1100 filas procesadas
+2025-05-15 14:33:02,765 - INFO - Backup guardado en RuleName_con_google_forms_backup_1150.csv - 1150 filas procesadas
+2025-05-15 14:33:02,771 - INFO - Backup guardado en RuleName_con_google_forms_backup_1200.csv - 1200 filas procesadas
+2025-05-15 14:33:02,777 - INFO - Backup guardado en RuleName_con_google_forms_backup_1250.csv - 1250 filas procesadas
+2025-05-15 14:33:02,783 - INFO - Backup guardado en RuleName_con_google_forms_backup_1300.csv - 1300 filas procesadas
+2025-05-15 14:33:02,789 - INFO - Backup guardado en RuleName_con_google_forms_backup_1350.csv - 1350 filas procesadas
+2025-05-15 14:33:02,794 - INFO - Backup guardado en RuleName_con_google_forms_backup_1400.csv - 1400 filas procesadas
+2025-05-15 14:33:02,800 - INFO - Backup guardado en RuleName_con_google_forms_backup_1450.csv - 1450 filas procesadas
+2025-05-15 14:33:02,806 - INFO - Backup guardado en RuleName_con_google_forms_backup_1500.csv - 1500 filas procesadas
+2025-05-15 14:33:02,812 - INFO - Backup guardado en RuleName_con_google_forms_backup_1550.csv - 1550 filas procesadas
+2025-05-15 14:33:02,818 - INFO - Backup guardado en RuleName_con_google_forms_backup_1600.csv - 1600 filas procesadas
+2025-05-15 14:33:02,824 - INFO - Backup guardado en RuleName_con_google_forms_backup_1650.csv - 1650 filas procesadas
+2025-05-15 14:33:02,830 - INFO - Backup guardado en RuleName_con_google_forms_backup_1700.csv - 1700 filas procesadas
+2025-05-15 14:33:02,836 - INFO - Backup guardado en RuleName_con_google_forms_backup_1750.csv - 1750 filas procesadas
+2025-05-15 14:33:02,842 - INFO - Backup guardado en RuleName_con_google_forms_backup_1800.csv - 1800 filas procesadas
+2025-05-15 14:33:02,848 - INFO - Backup guardado en RuleName_con_google_forms_backup_1850.csv - 1850 filas procesadas
+2025-05-15 14:33:02,854 - INFO - Backup guardado en RuleName_con_google_forms_backup_1900.csv - 1900 filas procesadas
+2025-05-15 14:33:02,860 - INFO - Backup guardado en RuleName_con_google_forms_backup_1950.csv - 1950 filas procesadas
+2025-05-15 14:33:02,866 - INFO - Backup guardado en RuleName_con_google_forms_backup_2000.csv - 2000 filas procesadas
+2025-05-15 14:33:02,872 - INFO - Backup guardado en RuleName_con_google_forms_backup_2050.csv - 2050 filas procesadas
+2025-05-15 14:33:02,878 - INFO - Backup guardado en RuleName_con_google_forms_backup_2100.csv - 2100 filas procesadas
+2025-05-15 14:33:02,884 - INFO - Backup guardado en RuleName_con_google_forms_backup_2150.csv - 2150 filas procesadas
+2025-05-15 14:33:02,890 - INFO - Backup guardado en RuleName_con_google_forms_backup_2200.csv - 2200 filas procesadas
+2025-05-15 14:33:02,896 - INFO - Backup guardado en RuleName_con_google_forms_backup_2250.csv - 2250 filas procesadas
+2025-05-15 14:33:02,902 - INFO - Backup guardado en RuleName_con_google_forms_backup_2300.csv - 2300 filas procesadas
+2025-05-15 14:33:02,908 - INFO - Backup guardado en RuleName_con_google_forms_backup_2350.csv - 2350 filas procesadas
+2025-05-15 14:33:02,914 - INFO - Backup guardado en RuleName_con_google_forms_backup_2400.csv - 2400 filas procesadas
+2025-05-15 14:33:02,920 - INFO - Backup guardado en RuleName_con_google_forms_backup_2450.csv - 2450 filas procesadas
+2025-05-15 14:33:02,926 - INFO - Backup guardado en RuleName_con_google_forms_backup_2500.csv - 2500 filas procesadas
+2025-05-15 14:33:02,931 - INFO - Backup guardado en RuleName_con_google_forms_backup_2550.csv - 2550 filas procesadas
+2025-05-15 14:33:02,937 - INFO - Backup guardado en RuleName_con_google_forms_backup_2600.csv - 2600 filas procesadas
+2025-05-15 14:33:02,943 - INFO - Backup guardado en RuleName_con_google_forms_backup_2650.csv - 2650 filas procesadas
+2025-05-15 14:33:02,948 - INFO - Backup guardado en RuleName_con_google_forms_backup_2700.csv - 2700 filas procesadas
+2025-05-15 14:33:02,954 - INFO - Backup guardado en RuleName_con_google_forms_backup_2750.csv - 2750 filas procesadas
+2025-05-15 14:33:02,960 - INFO - Backup guardado en RuleName_con_google_forms_backup_2800.csv - 2800 filas procesadas
+2025-05-15 14:33:02,965 - INFO - Backup guardado en RuleName_con_google_forms_backup_2850.csv - 2850 filas procesadas
+2025-05-15 14:33:02,971 - INFO - Backup guardado en RuleName_con_google_forms_backup_2900.csv - 2900 filas procesadas
+2025-05-15 14:33:02,977 - INFO - Backup guardado en RuleName_con_google_forms_backup_2950.csv - 2950 filas procesadas
+2025-05-15 14:33:02,983 - INFO - Backup guardado en RuleName_con_google_forms_backup_3000.csv - 3000 filas procesadas
+2025-05-15 14:33:02,989 - INFO - Backup guardado en RuleName_con_google_forms_backup_3050.csv - 3050 filas procesadas
+2025-05-15 14:33:02,995 - INFO - Backup guardado en RuleName_con_google_forms_backup_3100.csv - 3100 filas procesadas
+2025-05-15 14:33:03,001 - INFO - Backup guardado en RuleName_con_google_forms_backup_3150.csv - 3150 filas procesadas
+2025-05-15 14:33:03,007 - INFO - Backup guardado en RuleName_con_google_forms_backup_3200.csv - 3200 filas procesadas
+2025-05-15 14:33:03,013 - INFO - Backup guardado en RuleName_con_google_forms_backup_3250.csv - 3250 filas procesadas
+2025-05-15 14:33:03,019 - INFO - Backup guardado en RuleName_con_google_forms_backup_3300.csv - 3300 filas procesadas
+2025-05-15 14:33:03,025 - INFO - Backup guardado en RuleName_con_google_forms_backup_3350.csv - 3350 filas procesadas
+2025-05-15 14:33:03,030 - INFO - Backup guardado en RuleName_con_google_forms_backup_3400.csv - 3400 filas procesadas
+2025-05-15 14:33:03,036 - INFO - Backup guardado en RuleName_con_google_forms_backup_3450.csv - 3450 filas procesadas
+2025-05-15 14:33:03,042 - INFO - Backup guardado en RuleName_con_google_forms_backup_3500.csv - 3500 filas procesadas
+2025-05-15 14:33:03,047 - INFO - Backup guardado en RuleName_con_google_forms_backup_3550.csv - 3550 filas procesadas
+2025-05-15 14:33:03,053 - INFO - Backup guardado en RuleName_con_google_forms_backup_3600.csv - 3600 filas procesadas
+2025-05-15 14:33:03,058 - INFO - Backup guardado en RuleName_con_google_forms_backup_3650.csv - 3650 filas procesadas
+2025-05-15 14:33:03,064 - INFO - Backup guardado en RuleName_con_google_forms_backup_3700.csv - 3700 filas procesadas
+2025-05-15 14:33:03,070 - INFO - Backup guardado en RuleName_con_google_forms_backup_3750.csv - 3750 filas procesadas
+2025-05-15 14:33:03,075 - INFO - Backup guardado en RuleName_con_google_forms_backup_3800.csv - 3800 filas procesadas
+2025-05-15 14:33:03,081 - INFO - Backup guardado en RuleName_con_google_forms_backup_3850.csv - 3850 filas procesadas
+2025-05-15 14:33:03,087 - INFO - Backup guardado en RuleName_con_google_forms_backup_3900.csv - 3900 filas procesadas
+2025-05-15 14:33:03,092 - INFO - Backup guardado en RuleName_con_google_forms_backup_3950.csv - 3950 filas procesadas
+2025-05-15 14:33:03,097 - INFO - Backup guardado en RuleName_con_google_forms_backup_4000.csv - 4000 filas procesadas
+2025-05-15 14:33:03,103 - INFO - Backup guardado en RuleName_con_google_forms_backup_4050.csv - 4050 filas procesadas
+2025-05-15 14:33:03,109 - INFO - Backup guardado en RuleName_con_google_forms_backup_4100.csv - 4100 filas procesadas
+2025-05-15 14:33:03,115 - INFO - Backup guardado en RuleName_con_google_forms_backup_4150.csv - 4150 filas procesadas
+2025-05-15 14:33:03,122 - INFO - Backup guardado en RuleName_con_google_forms_backup_4200.csv - 4200 filas procesadas
+2025-05-15 14:33:03,127 - INFO - Backup guardado en RuleName_con_google_forms_backup_4250.csv - 4250 filas procesadas
+2025-05-15 14:33:03,133 - INFO - Backup guardado en RuleName_con_google_forms_backup_4300.csv - 4300 filas procesadas
+2025-05-15 14:33:03,139 - INFO - Backup guardado en RuleName_con_google_forms_backup_4350.csv - 4350 filas procesadas
+2025-05-15 14:33:03,144 - INFO - Backup guardado en RuleName_con_google_forms_backup_4400.csv - 4400 filas procesadas
+2025-05-15 14:33:03,150 - INFO - Backup guardado en RuleName_con_google_forms_backup_4450.csv - 4450 filas procesadas
+2025-05-15 14:33:03,156 - INFO - Backup guardado en RuleName_con_google_forms_backup_4500.csv - 4500 filas procesadas
+2025-05-15 14:33:03,162 - INFO - Backup guardado en RuleName_con_google_forms_backup_4550.csv - 4550 filas procesadas
+2025-05-15 14:33:03,168 - INFO - Backup guardado en RuleName_con_google_forms_backup_4600.csv - 4600 filas procesadas
+2025-05-15 14:33:03,174 - INFO - Backup guardado en RuleName_con_google_forms_backup_4650.csv - 4650 filas procesadas
+2025-05-15 14:33:03,179 - INFO - Backup guardado en RuleName_con_google_forms_backup_4700.csv - 4700 filas procesadas
+2025-05-15 14:33:03,185 - INFO - Backup guardado en RuleName_con_google_forms_backup_4750.csv - 4750 filas procesadas
+2025-05-15 14:33:03,191 - INFO - Backup guardado en RuleName_con_google_forms_backup_4800.csv - 4800 filas procesadas
+2025-05-15 14:33:03,197 - INFO - Backup guardado en RuleName_con_google_forms_backup_4850.csv - 4850 filas procesadas
+2025-05-15 14:33:03,203 - INFO - Backup guardado en RuleName_con_google_forms_backup_4900.csv - 4900 filas procesadas
+2025-05-15 14:33:03,208 - INFO - Backup guardado en RuleName_con_google_forms_backup_4950.csv - 4950 filas procesadas
+2025-05-15 14:33:03,214 - INFO - Backup guardado en RuleName_con_google_forms_backup_5000.csv - 5000 filas procesadas
+2025-05-15 14:33:03,221 - INFO - Backup guardado en RuleName_con_google_forms_backup_5050.csv - 5050 filas procesadas
+2025-05-15 14:33:03,226 - INFO - Backup guardado en RuleName_con_google_forms_backup_5100.csv - 5100 filas procesadas
+2025-05-15 14:33:03,232 - INFO - Backup guardado en RuleName_con_google_forms_backup_5150.csv - 5150 filas procesadas
+2025-05-15 14:33:03,238 - INFO - Backup guardado en RuleName_con_google_forms_backup_5200.csv - 5200 filas procesadas
+2025-05-15 14:33:03,244 - INFO - Backup guardado en RuleName_con_google_forms_backup_5250.csv - 5250 filas procesadas
+2025-05-15 14:33:03,250 - INFO - Backup guardado en RuleName_con_google_forms_backup_5300.csv - 5300 filas procesadas
+2025-05-15 14:33:03,255 - INFO - Backup guardado en RuleName_con_google_forms_backup_5350.csv - 5350 filas procesadas
+2025-05-15 14:33:03,261 - INFO - Backup guardado en RuleName_con_google_forms_backup_5400.csv - 5400 filas procesadas
+2025-05-15 14:33:03,267 - INFO - Backup guardado en RuleName_con_google_forms_backup_5450.csv - 5450 filas procesadas
+2025-05-15 14:33:03,273 - INFO - Backup guardado en RuleName_con_google_forms_backup_5500.csv - 5500 filas procesadas
+2025-05-15 14:33:03,279 - INFO - Backup guardado en RuleName_con_google_forms_backup_5550.csv - 5550 filas procesadas
+2025-05-15 14:33:03,285 - INFO - Backup guardado en RuleName_con_google_forms_backup_5600.csv - 5600 filas procesadas
+2025-05-15 14:33:03,292 - INFO - Backup guardado en RuleName_con_google_forms_backup_5650.csv - 5650 filas procesadas
+2025-05-15 14:33:03,299 - INFO - Backup guardado en RuleName_con_google_forms_backup_5700.csv - 5700 filas procesadas
+2025-05-15 14:33:03,305 - INFO - Backup guardado en RuleName_con_google_forms_backup_5750.csv - 5750 filas procesadas
+2025-05-15 14:33:03,311 - INFO - Backup guardado en RuleName_con_google_forms_backup_5800.csv - 5800 filas procesadas
+2025-05-15 14:33:03,317 - INFO - Backup guardado en RuleName_con_google_forms_backup_5850.csv - 5850 filas procesadas
+2025-05-15 14:33:03,324 - INFO - Backup guardado en RuleName_con_google_forms_backup_5900.csv - 5900 filas procesadas
+2025-05-15 14:33:03,330 - INFO - Backup guardado en RuleName_con_google_forms_backup_5950.csv - 5950 filas procesadas
+2025-05-15 14:33:03,337 - INFO - Backup guardado en RuleName_con_google_forms_backup_6000.csv - 6000 filas procesadas
+2025-05-15 14:33:03,343 - INFO - Backup guardado en RuleName_con_google_forms_backup_6050.csv - 6050 filas procesadas
+2025-05-15 14:33:03,349 - INFO - Backup guardado en RuleName_con_google_forms_backup_6100.csv - 6100 filas procesadas
+2025-05-15 14:33:03,355 - INFO - Backup guardado en RuleName_con_google_forms_backup_6150.csv - 6150 filas procesadas
+2025-05-15 14:33:03,361 - INFO - Backup guardado en RuleName_con_google_forms_backup_6200.csv - 6200 filas procesadas
+2025-05-15 14:33:03,367 - INFO - Backup guardado en RuleName_con_google_forms_backup_6250.csv - 6250 filas procesadas
+2025-05-15 14:33:03,373 - INFO - Backup guardado en RuleName_con_google_forms_backup_6300.csv - 6300 filas procesadas
+2025-05-15 14:33:03,379 - INFO - Backup guardado en RuleName_con_google_forms_backup_6350.csv - 6350 filas procesadas
+2025-05-15 14:33:03,385 - INFO - Backup guardado en RuleName_con_google_forms_backup_6400.csv - 6400 filas procesadas
+2025-05-15 14:33:03,391 - INFO - Backup guardado en RuleName_con_google_forms_backup_6450.csv - 6450 filas procesadas
+2025-05-15 14:33:03,397 - INFO - Backup guardado en RuleName_con_google_forms_backup_6500.csv - 6500 filas procesadas
+2025-05-15 14:33:03,403 - INFO - Backup guardado en RuleName_con_google_forms_backup_6550.csv - 6550 filas procesadas
+2025-05-15 14:33:03,409 - INFO - Backup guardado en RuleName_con_google_forms_backup_6600.csv - 6600 filas procesadas
+2025-05-15 14:33:03,414 - INFO - Backup guardado en RuleName_con_google_forms_backup_6650.csv - 6650 filas procesadas
+2025-05-15 14:33:03,420 - INFO - Backup guardado en RuleName_con_google_forms_backup_6700.csv - 6700 filas procesadas
+2025-05-15 14:33:03,426 - INFO - Backup guardado en RuleName_con_google_forms_backup_6750.csv - 6750 filas procesadas
+2025-05-15 14:33:03,432 - INFO - Backup guardado en RuleName_con_google_forms_backup_6800.csv - 6800 filas procesadas
+2025-05-15 14:33:03,437 - INFO - Backup guardado en RuleName_con_google_forms_backup_6850.csv - 6850 filas procesadas
+2025-05-15 14:33:03,443 - INFO - Backup guardado en RuleName_con_google_forms_backup_6900.csv - 6900 filas procesadas
+2025-05-15 14:33:03,449 - INFO - Backup guardado en RuleName_con_google_forms_backup_6950.csv - 6950 filas procesadas
+2025-05-15 14:33:03,455 - INFO - Backup guardado en RuleName_con_google_forms_backup_7000.csv - 7000 filas procesadas
+2025-05-15 14:33:03,461 - INFO - Backup guardado en RuleName_con_google_forms_backup_7050.csv - 7050 filas procesadas
+2025-05-15 14:33:03,467 - INFO - Backup guardado en RuleName_con_google_forms_backup_7100.csv - 7100 filas procesadas
+2025-05-15 14:33:03,473 - INFO - Backup guardado en RuleName_con_google_forms_backup_7150.csv - 7150 filas procesadas
+2025-05-15 14:33:03,479 - INFO - Backup guardado en RuleName_con_google_forms_backup_7200.csv - 7200 filas procesadas
+2025-05-15 14:33:03,483 - INFO - Exportando resultados finales
+2025-05-15 14:33:03,488 - INFO - Eliminando archivos de respaldo...
+2025-05-15 14:33:03,490 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_100.csv
+2025-05-15 14:33:03,491 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1000.csv
+2025-05-15 14:33:03,492 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1050.csv
+2025-05-15 14:33:03,493 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1100.csv
+2025-05-15 14:33:03,493 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1150.csv
+2025-05-15 14:33:03,494 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1200.csv
+2025-05-15 14:33:03,495 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1250.csv
+2025-05-15 14:33:03,496 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1300.csv
+2025-05-15 14:33:03,496 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1350.csv
+2025-05-15 14:33:03,497 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1400.csv
+2025-05-15 14:33:03,498 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1450.csv
+2025-05-15 14:33:03,499 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_150.csv
+2025-05-15 14:33:03,499 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1500.csv
+2025-05-15 14:33:03,500 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1550.csv
+2025-05-15 14:33:03,501 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1600.csv
+2025-05-15 14:33:03,502 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1650.csv
+2025-05-15 14:33:03,503 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1700.csv
+2025-05-15 14:33:03,504 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1750.csv
+2025-05-15 14:33:03,505 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1800.csv
+2025-05-15 14:33:03,505 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1850.csv
+2025-05-15 14:33:03,506 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1900.csv
+2025-05-15 14:33:03,507 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_1950.csv
+2025-05-15 14:33:03,507 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_200.csv
+2025-05-15 14:33:03,508 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2000.csv
+2025-05-15 14:33:03,509 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2050.csv
+2025-05-15 14:33:03,510 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2100.csv
+2025-05-15 14:33:03,511 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2150.csv
+2025-05-15 14:33:03,512 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2200.csv
+2025-05-15 14:33:03,512 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2250.csv
+2025-05-15 14:33:03,513 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2300.csv
+2025-05-15 14:33:03,514 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2350.csv
+2025-05-15 14:33:03,515 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2400.csv
+2025-05-15 14:33:03,516 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2450.csv
+2025-05-15 14:33:03,517 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_250.csv
+2025-05-15 14:33:03,517 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2500.csv
+2025-05-15 14:33:03,518 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2550.csv
+2025-05-15 14:33:03,519 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2600.csv
+2025-05-15 14:33:03,520 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2650.csv
+2025-05-15 14:33:03,521 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2700.csv
+2025-05-15 14:33:03,521 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2750.csv
+2025-05-15 14:33:03,522 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2800.csv
+2025-05-15 14:33:03,523 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2850.csv
+2025-05-15 14:33:03,524 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2900.csv
+2025-05-15 14:33:03,524 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_2950.csv
+2025-05-15 14:33:03,525 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_300.csv
+2025-05-15 14:33:03,526 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3000.csv
+2025-05-15 14:33:03,527 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3050.csv
+2025-05-15 14:33:03,527 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3100.csv
+2025-05-15 14:33:03,528 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3150.csv
+2025-05-15 14:33:03,529 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3200.csv
+2025-05-15 14:33:03,530 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3250.csv
+2025-05-15 14:33:03,530 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3300.csv
+2025-05-15 14:33:03,531 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3350.csv
+2025-05-15 14:33:03,532 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3400.csv
+2025-05-15 14:33:03,533 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3450.csv
+2025-05-15 14:33:03,534 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_350.csv
+2025-05-15 14:33:03,534 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3500.csv
+2025-05-15 14:33:03,535 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3550.csv
+2025-05-15 14:33:03,536 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3600.csv
+2025-05-15 14:33:03,536 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3650.csv
+2025-05-15 14:33:03,537 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3700.csv
+2025-05-15 14:33:03,538 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3750.csv
+2025-05-15 14:33:03,539 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3800.csv
+2025-05-15 14:33:03,540 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3850.csv
+2025-05-15 14:33:03,540 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3900.csv
+2025-05-15 14:33:03,541 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_3950.csv
+2025-05-15 14:33:03,542 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_400.csv
+2025-05-15 14:33:03,543 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4000.csv
+2025-05-15 14:33:03,543 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4050.csv
+2025-05-15 14:33:03,544 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4100.csv
+2025-05-15 14:33:03,545 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4150.csv
+2025-05-15 14:33:03,546 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4200.csv
+2025-05-15 14:33:03,547 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4250.csv
+2025-05-15 14:33:03,547 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4300.csv
+2025-05-15 14:33:03,548 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4350.csv
+2025-05-15 14:33:03,549 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4400.csv
+2025-05-15 14:33:03,550 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4450.csv
+2025-05-15 14:33:03,550 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_450.csv
+2025-05-15 14:33:03,551 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4500.csv
+2025-05-15 14:33:03,552 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4550.csv
+2025-05-15 14:33:03,553 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4600.csv
+2025-05-15 14:33:03,554 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4650.csv
+2025-05-15 14:33:03,554 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4700.csv
+2025-05-15 14:33:03,555 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4750.csv
+2025-05-15 14:33:03,556 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4800.csv
+2025-05-15 14:33:03,557 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4850.csv
+2025-05-15 14:33:03,558 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4900.csv
+2025-05-15 14:33:03,558 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_4950.csv
+2025-05-15 14:33:03,559 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_50.csv
+2025-05-15 14:33:03,560 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_500.csv
+2025-05-15 14:33:03,561 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5000.csv
+2025-05-15 14:33:03,561 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5050.csv
+2025-05-15 14:33:03,562 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5100.csv
+2025-05-15 14:33:03,563 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5150.csv
+2025-05-15 14:33:03,564 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5200.csv
+2025-05-15 14:33:03,564 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5250.csv
+2025-05-15 14:33:03,565 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5300.csv
+2025-05-15 14:33:03,566 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5350.csv
+2025-05-15 14:33:03,567 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5400.csv
+2025-05-15 14:33:03,568 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5450.csv
+2025-05-15 14:33:03,569 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_550.csv
+2025-05-15 14:33:03,569 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5500.csv
+2025-05-15 14:33:03,570 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5550.csv
+2025-05-15 14:33:03,571 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5600.csv
+2025-05-15 14:33:03,572 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5650.csv
+2025-05-15 14:33:03,572 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5700.csv
+2025-05-15 14:33:03,573 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5750.csv
+2025-05-15 14:33:03,574 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5800.csv
+2025-05-15 14:33:03,574 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5850.csv
+2025-05-15 14:33:03,575 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5900.csv
+2025-05-15 14:33:03,576 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_5950.csv
+2025-05-15 14:33:03,577 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_600.csv
+2025-05-15 14:33:03,577 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6000.csv
+2025-05-15 14:33:03,578 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6050.csv
+2025-05-15 14:33:03,579 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6100.csv
+2025-05-15 14:33:03,580 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6150.csv
+2025-05-15 14:33:03,580 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6200.csv
+2025-05-15 14:33:03,581 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6250.csv
+2025-05-15 14:33:03,582 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6300.csv
+2025-05-15 14:33:03,583 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6350.csv
+2025-05-15 14:33:03,583 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6400.csv
+2025-05-15 14:33:03,584 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6450.csv
+2025-05-15 14:33:03,585 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_650.csv
+2025-05-15 14:33:03,586 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6500.csv
+2025-05-15 14:33:03,587 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6550.csv
+2025-05-15 14:33:03,587 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6600.csv
+2025-05-15 14:33:03,588 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6650.csv
+2025-05-15 14:33:03,589 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6700.csv
+2025-05-15 14:33:03,589 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6750.csv
+2025-05-15 14:33:03,590 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6800.csv
+2025-05-15 14:33:03,591 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6850.csv
+2025-05-15 14:33:03,592 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6900.csv
+2025-05-15 14:33:03,593 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_6950.csv
+2025-05-15 14:33:03,593 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_700.csv
+2025-05-15 14:33:03,594 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_7000.csv
+2025-05-15 14:33:03,595 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_7050.csv
+2025-05-15 14:33:03,595 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_7100.csv
+2025-05-15 14:33:03,596 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_7150.csv
+2025-05-15 14:33:03,597 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_7200.csv
+2025-05-15 14:33:03,597 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_750.csv
+2025-05-15 14:33:03,598 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_800.csv
+2025-05-15 14:33:03,599 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_850.csv
+2025-05-15 14:33:03,599 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_900.csv
+2025-05-15 14:33:03,600 - INFO - Archivo de respaldo eliminado: RuleName_con_google_forms_backup_950.csv
+2025-05-15 14:33:03,601 - INFO - Total de 144 archivos de respaldo eliminados
+2025-05-15 14:33:03,601 - INFO - Resumen del proceso:
+2025-05-15 14:33:03,602 - INFO - Hora de inicio: 2025-05-15 14:33:02
+2025-05-15 14:33:03,602 - INFO - Hora de finalización: 2025-05-15 14:33:03
+2025-05-15 14:33:03,603 - INFO - Tiempo transcurrido: 00:00:01
+2025-05-15 14:33:03,603 - INFO - Total de Google Forms encontrados: 26
+2025-05-15 14:33:03,603 - INFO - Google Forms únicos: 21
+2025-05-15 14:33:03,604 - INFO - Filas con Google Forms: 22 de 7216 (0.3%)
+2025-05-19 12:03:20,367 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at C:\Users\20171078343\AppData\Local\anaconda3\Lib\site-packages\ipykernel\kernelbase.py:304> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at C:\Users\20171078343\AppData\Local\anaconda3\Lib\asyncio\futures.py:394]>
