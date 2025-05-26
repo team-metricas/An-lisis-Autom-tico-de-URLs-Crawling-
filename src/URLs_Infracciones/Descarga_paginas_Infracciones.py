@@ -22,7 +22,7 @@ class VerificadorInfracciones:
     def __init__(self):
         self.url_base = "https://buenosaires.gob.ar/infracciones"
         self.dominio_base = "buenosaires.gob.ar"
-        self.profundidad_maxima = 4
+        self.profundidad_maxima = 3
         self.urls_visitadas = set()
         self.urls_pendientes = deque()
         self.enlaces_invalidos = []  # Solo guardamos los inválidos
@@ -177,11 +177,7 @@ class VerificadorInfracciones:
                 if self.es_enlace_restringido(href):
                     continue
                 
-                # Solo verificar URLs del dominio buenosaires.gob.ar
-                if not self.es_dominio_permitido(href):
-                    continue
-                
-                # Verificar estado HTTP
+                # Verificar TODOS los enlaces (internos y externos)
                 es_valida, codigo_error = self.verificar_estado_http(href)
                 
                 if not es_valida:
@@ -195,12 +191,15 @@ class VerificadorInfracciones:
                 else:
                     print(f"✓ URL válida: {href}")
                     
-                    # Agregar a pendientes si no ha sido visitada y está dentro de la profundidad
-                    if (href not in self.urls_visitadas and 
+                    # SOLO navegar (agregar a pendientes) si es del dominio buenosaires.gob.ar
+                    if (self.es_dominio_permitido(href) and 
+                        href not in self.urls_visitadas and 
                         href not in [u[0] for u in self.urls_pendientes] and 
                         profundidad < self.profundidad_maxima):
                         self.urls_pendientes.append((href, profundidad + 1))
-                        print(f"  → Agregada a pendientes (nivel {profundidad + 1})")
+                        print(f"  → Agregada a pendientes para navegación (nivel {profundidad + 1})")
+                    elif not self.es_dominio_permitido(href):
+                        print(f"  → Enlace externo verificado pero no navegado: {href}")
                     
         except Exception as e:
             print(f"ERROR procesando página {url}: {str(e)}")
@@ -211,6 +210,8 @@ class VerificadorInfracciones:
         print("VERIFICADOR DE ENLACES - INFRACCIONES BUENOS AIRES")
         print(f"URL Base: {self.url_base}")
         print(f"Profundidad máxima: {self.profundidad_maxima}")
+        print(f"NAVEGACIÓN: Solo dentro de buenosaires.gob.ar")
+        print(f"VERIFICACIÓN: Todos los enlaces encontrados (internos y externos)")
         print(f"Fecha/Hora inicio: {self.tiempo_inicio.strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*80)
         
