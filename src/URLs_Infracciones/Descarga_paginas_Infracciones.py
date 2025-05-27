@@ -3,7 +3,7 @@
 Verificador de enlaces para infracciones de Buenos Aires
 URL base: https://buenosaires.gob.ar/infracciones
 Profundidad: 4 niveles
-Salida: CSV con URLs inválidas
+Salida: CSV con URLs inválidas (sin duplicados)
 """
 
 import requests
@@ -26,6 +26,7 @@ class VerificadorInfracciones:
         self.urls_visitadas = set()
         self.urls_pendientes = deque()
         self.enlaces_invalidos = []  # Solo guardamos los inválidos
+        self.urls_invalidas_verificadas = set()  # NUEVO: Para evitar duplicados
         self.tiempo_inicio = datetime.now()
         self.ua = UserAgent()
         
@@ -55,32 +56,58 @@ class VerificadorInfracciones:
     def verificar_estado_http(self, url):
         """Verifica el estado HTTP de una URL y retorna si es válida"""
         try:
-            self.headers['User-Agent'] = self.ua.random
-            self.headers['Referer'] = self.url_base
+            # Headers más completos para parecer un navegador real
+            headers_verificacion = {
+                'User-Agent': self.ua.random,
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Accept-Charset': 'UTF-8',
+                'Cache-Control': 'no-cache',
+                'Pragma': 'no-cache',
+                'DNT': '1',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1',
+                'Sec-Fetch-Dest': 'document',
+                'Sec-Fetch-Mode': 'navigate',
+                'Sec-Fetch-Site': 'none',
+                'Sec-Fetch-User': '?1',
+                'Referer': self.url_base
+            }
             
             # Primero intentamos con HEAD
             respuesta = self.session.head(
                 url, 
-                headers=self.headers,
-                timeout=10,
+                headers=headers_verificacion,
+                timeout=15,
                 allow_redirects=True
             )
             
+            # Considerar códigos de éxito más amplios
+            if respuesta.status_code in [200, 301, 302, 303, 307, 308]:
+                return True, respuesta.status_code
+            
             # Si HEAD no funciona, intentamos con GET
-            if respuesta.status_code == 405:  # Method Not Allowed
+            if respuesta.status_code in [405, 501]:  # Method Not Allowed o Not Implemented
                 respuesta = self.session.get(
                     url, 
-                    headers=self.headers,
-                    timeout=10,
+                    headers=headers_verificacion,
+                    timeout=15,
                     allow_redirects=True
                 )
+                
+                # Códigos de éxito para GET
+                if respuesta.status_code in [200, 301, 302, 303, 307, 308]:
+                    return True, respuesta.status_code
             
-            return respuesta.status_code == 200, respuesta.status_code
+            return False, respuesta.status_code
             
         except requests.exceptions.Timeout:
             return False, "TIMEOUT"
         except requests.exceptions.ConnectionError:
             return False, "CONNECTION_ERROR"
+        except requests.exceptions.TooManyRedirects:
+            return False, "TOO_MANY_REDIRECTS"
         except requests.exceptions.RequestException as e:
             return False, f"REQUEST_ERROR: {str(e)}"
         except Exception as e:
@@ -137,6 +164,11 @@ class VerificadorInfracciones:
                 if not href.startswith(('http://', 'https://')):
                     href = urljoin(base_url, href)
                 
+                # Forzar HTTPS para dominios buenosaires.gob.ar
+                if href.startswith('http://') and 'buenosaires.gob.ar' in href:
+                    href = href.replace('http://', 'https://', 1)
+                    print(f"  → Convertido HTTP a HTTPS: {href}")
+                
                 # Limpiar fragmentos y parámetros innecesarios
                 if '#' in href:
                     href = href.split('#')[0]
@@ -154,11 +186,16 @@ class VerificadorInfracciones:
         if url in self.urls_visitadas:
             return
             
+        # Verificar que la URL actual pertenece al dominio permitido antes de procesarla
+        if not self.es_dominio_permitido(url):
+            print(f"⚠ ADVERTENCIA: Intentando procesar URL externa: {url}")
+            return
+            
         print(f"\n{'='*60}")
         print(f"Procesando: {url}")
         print(f"Profundidad: {profundidad}/{self.profundidad_maxima}")
         print(f"Visitadas: {len(self.urls_visitadas)} | Pendientes: {len(self.urls_pendientes)}")
-        print(f"Enlaces inválidos encontrados: {len(self.enlaces_invalidos)}")
+        print(f"Enlaces inválidos únicos: {len(self.urls_invalidas_verificadas)}")
         print(f"{'='*60}")
         
         self.urls_visitadas.add(url)
@@ -177,29 +214,34 @@ class VerificadorInfracciones:
                 if self.es_enlace_restringido(href):
                     continue
                 
-                # Verificar TODOS los enlaces (internos y externos)
-                es_valida, codigo_error = self.verificar_estado_http(href)
-                
-                if not es_valida:
-                    print(f"✗ URL INVÁLIDA: {href} (Error: {codigo_error})")
-                    self.enlaces_invalidos.append({
-                        'url_pagina_origen': url,
-                        'url_destino_invalida': href,
-                        'error': str(codigo_error),
-                        'profundidad': profundidad
-                    })
-                else:
-                    print(f"✓ URL válida: {href}")
+                # MODIFICACIÓN: Solo verificar URL si no la hemos verificado antes
+                if href not in self.urls_invalidas_verificadas:
+                    es_valida, codigo_error = self.verificar_estado_http(href)
                     
-                    # SOLO navegar (agregar a pendientes) si es del dominio buenosaires.gob.ar
-                    if (self.es_dominio_permitido(href) and 
-                        href not in self.urls_visitadas and 
-                        href not in [u[0] for u in self.urls_pendientes] and 
-                        profundidad < self.profundidad_maxima):
-                        self.urls_pendientes.append((href, profundidad + 1))
-                        print(f"  → Agregada a pendientes para navegación (nivel {profundidad + 1})")
-                    elif not self.es_dominio_permitido(href):
-                        print(f"  → Enlace externo verificado pero no navegado: {href}")
+                    if not es_valida:
+                        print(f"✗ URL INVÁLIDA: {href} (Error: {codigo_error})")
+                        # Agregar a la lista de inválidos Y al set de verificadas
+                        self.enlaces_invalidos.append({
+                            'url_pagina_origen': url,
+                            'url_destino_invalida': href,
+                            'error': str(codigo_error),
+                            'profundidad': profundidad
+                        })
+                        self.urls_invalidas_verificadas.add(href)
+                    else:
+                        print(f"✓ URL válida: {href}")
+                        
+                        # NAVEGACIÓN: SOLO si es del dominio buenosaires.gob.ar
+                        if (self.es_dominio_permitido(href) and 
+                            href not in self.urls_visitadas and 
+                            href not in [u[0] for u in self.urls_pendientes] and 
+                            profundidad < self.profundidad_maxima):
+                            self.urls_pendientes.append((href, profundidad + 1))
+                            print(f"  → Agregada a pendientes para navegación (nivel {profundidad + 1})")
+                        elif not self.es_dominio_permitido(href):
+                            print(f"  → Enlace externo verificado pero NO NAVEGADO: {href}")
+                else:
+                    print(f"⚠ URL ya verificada anteriormente: {href}")
                     
         except Exception as e:
             print(f"ERROR procesando página {url}: {str(e)}")
@@ -212,6 +254,7 @@ class VerificadorInfracciones:
         print(f"Profundidad máxima: {self.profundidad_maxima}")
         print(f"NAVEGACIÓN: Solo dentro de buenosaires.gob.ar")
         print(f"VERIFICACIÓN: Todos los enlaces encontrados (internos y externos)")
+        print(f"DUPLICADOS: Eliminados automáticamente del reporte")
         print(f"Fecha/Hora inicio: {self.tiempo_inicio.strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*80)
         
@@ -225,19 +268,30 @@ class VerificadorInfracciones:
             # Cada 50 páginas procesadas, mostramos progreso
             if len(self.urls_visitadas) % 50 == 0 and len(self.urls_visitadas) > 0:
                 print(f"\n*** PROGRESO: {len(self.urls_visitadas)} páginas procesadas ***")
-                print(f"*** Enlaces inválidos encontrados: {len(self.enlaces_invalidos)} ***\n")
+                print(f"*** Enlaces inválidos únicos: {len(self.urls_invalidas_verificadas)} ***\n")
         
         self.generar_informe()
 
     def generar_informe(self):
-        """Genera el archivo CSV con los enlaces inválidos"""
+        """Genera el archivo CSV con los enlaces inválidos (sin duplicados)"""
         print("\n" + "="*80)
         print("GENERANDO INFORME FINAL...")
         
         tiempo_fin = datetime.now()
         duracion = tiempo_fin - self.tiempo_inicio
         
-        # Crear archivo CSV con enlaces inválidos
+        # MODIFICACIÓN: Crear diccionario para eliminar duplicados por URL destino
+        # Mantenemos solo la primera ocurrencia de cada URL inválida
+        enlaces_unicos = {}
+        for enlace in self.enlaces_invalidos:
+            url_destino = enlace['url_destino_invalida']
+            if url_destino not in enlaces_unicos:
+                enlaces_unicos[url_destino] = enlace
+        
+        # Convertir de vuelta a lista
+        enlaces_sin_duplicados = list(enlaces_unicos.values())
+        
+        # Crear archivo CSV con enlaces inválidos únicos
         nombre_archivo = f'enlaces_invalidos_infracciones_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
         
         with open(nombre_archivo, 'w', newline='', encoding='utf-8') as f:
@@ -246,9 +300,8 @@ class VerificadorInfracciones:
             # Encabezado
             writer.writerow(['URL_PAGINA_ORIGEN', 'URL_DESTINO_INVALIDA'])
             
-            # Datos - formato solicitado: URL origen . URL destino inválida
-            for enlace in self.enlaces_invalidos:
-                linea_formateada = f"{enlace['url_pagina_origen']}.{enlace['url_destino_invalida']}"
+            # Datos sin duplicados
+            for enlace in enlaces_sin_duplicados:
                 writer.writerow([enlace['url_pagina_origen'], enlace['url_destino_invalida']])
         
         # Crear archivo de resumen
@@ -263,13 +316,15 @@ class VerificadorInfracciones:
             writer.writerow(['Duración total', str(duracion)])
             writer.writerow(['Profundidad máxima', self.profundidad_maxima])
             writer.writerow(['Páginas visitadas', len(self.urls_visitadas)])
-            writer.writerow(['Enlaces inválidos encontrados', len(self.enlaces_invalidos)])
+            writer.writerow(['Enlaces inválidos totales encontrados', len(self.enlaces_invalidos)])
+            writer.writerow(['Enlaces inválidos únicos en CSV', len(enlaces_sin_duplicados)])
+            writer.writerow(['Duplicados eliminados', len(self.enlaces_invalidos) - len(enlaces_sin_duplicados)])
             
             # Resumen por profundidad
             writer.writerow([])
-            writer.writerow(['Profundidad', 'Enlaces Inválidos'])
+            writer.writerow(['Profundidad', 'Enlaces Inválidos Únicos'])
             for prof in range(self.profundidad_maxima + 1):
-                invalidos = sum(1 for e in self.enlaces_invalidos if e['profundidad'] == prof)
+                invalidos = sum(1 for e in enlaces_sin_duplicados if e['profundidad'] == prof)
                 writer.writerow([f'Nivel {prof}', invalidos])
         
         # Mostrar resumen final
@@ -277,16 +332,18 @@ class VerificadorInfracciones:
         print(f"Archivo generado: {nombre_archivo}")
         print(f"Resumen generado: {nombre_resumen}")
         print(f"Páginas visitadas: {len(self.urls_visitadas)}")
-        print(f"Enlaces inválidos encontrados: {len(self.enlaces_invalidos)}")
+        print(f"Enlaces inválidos totales: {len(self.enlaces_invalidos)}")
+        print(f"Enlaces inválidos únicos en CSV: {len(enlaces_sin_duplicados)}")
+        print(f"Duplicados eliminados: {len(self.enlaces_invalidos) - len(enlaces_sin_duplicados)}")
         print(f"Duración total: {duracion}")
         print("="*80)
         
-        if self.enlaces_invalidos:
-            print("\nPREVIEW - Primeros 10 enlaces inválidos:")
-            for i, enlace in enumerate(self.enlaces_invalidos[:10], 1):
+        if enlaces_sin_duplicados:
+            print("\nPREVIEW - Primeros 10 enlaces inválidos únicos:")
+            for i, enlace in enumerate(enlaces_sin_duplicados[:10], 1):
                 print(f"{i:2d}. {enlace['url_pagina_origen']} → {enlace['url_destino_invalida']}")
-            if len(self.enlaces_invalidos) > 10:
-                print(f"... y {len(self.enlaces_invalidos) - 10} más en el archivo CSV")
+            if len(enlaces_sin_duplicados) > 10:
+                print(f"... y {len(enlaces_sin_duplicados) - 10} más en el archivo CSV")
 
     def cerrar(self):
         """Cierra la sesión de requests"""
