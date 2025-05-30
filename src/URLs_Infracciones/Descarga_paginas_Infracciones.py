@@ -22,7 +22,7 @@ class VerificadorInfracciones:
     def __init__(self):
         self.url_base = "https://buenosaires.gob.ar/infracciones"
         self.dominio_base = "buenosaires.gob.ar"
-        self.profundidad_maxima = 3
+        self.profundidad_maxima = 4
         self.urls_visitadas = set()
         self.urls_pendientes = deque()
         self.enlaces_invalidos = []  # Solo guardamos los inválidos
